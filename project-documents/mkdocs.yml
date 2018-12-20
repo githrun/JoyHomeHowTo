@@ -1,0 +1,106 @@
+# Project information
+site_name: DAR Project
+site_description: Data Acquisition Reporting
+repo_name: GitHub  #valid value 'GitHub', 'BitBucket', 'GitLab'
+#repo_name: 'CorHealth-Report Docs'
+repo_url: 'https://ccndevgithub.ccn.on.ca/CorHealth/report-wiki-menu-level/'
+site_url: http://localhost:8000/
+site_author: Domina Tang
+#extra:
+#  repo_icon: github
+#Copyright
+copyright: 'Copyright &copy; 2018 CorHealth Ontario'
+
+#Theme
+#'material','windmill' ,cinder,mkdocs,readthedocs, rtd-dropdown
+theme: 
+#  dir: 'theme'
+  name: 'material'   
+  palette:
+    primary: 'teal'
+    accent: 'teal'
+  font:
+    text: 'Open Sans'
+    code: 'Source Sans Pro'
+  logo: 
+    icon: 'whatshot'
+  favicon: 'assets/images/logo.png'
+  repo_icon: gitlab
+  feature:
+    tabs: true
+  custom_dir: 'theme'
+
+markdown_extensions:
+  - admonition:                      #block style content
+  - codehilite:                       #language highter
+      guess_lang: false
+  - pymdownx.arithmatex:
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret:
+  - pymdownx.critic:
+  - pymdownx.details:
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite:
+  - pymdownx.magiclink:
+  - pymdownx.mark:
+  - pymdownx.smartsymbols:
+  - pymdownx.superfences:
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde:
+  - toc:
+      permalink: true
+      baselevel: 1
+      toc_depth: 3
+  - extra:              #enable markdown within div   
+  - attr_list:          #give rendered html attribute such as Id
+  - markdown_include.include:
+      base_path: docs
+      
+#plugins:
+#    - pdf-export:
+    
+#Extra    
+extra_css:
+  - 'css/extra.css'
+  
+extra_javascript:
+  - 'js/extra.js'
+  
+extra:
+  social:
+    - type: 'github'
+      link: 'https://ccndevgithub.ccn.on.ca'
+    - type: 'twitter'
+      link: 'https://twitter.com/corhealthON'
+
+edit_uri: 'tree/master/project-documents/docs/'
+#Navigations      
+nav:
+    - Introduction: index.md
+    - 'Setup Environment':
+        - 'Git Guide': 'setup-env/git-guide.md'
+        - 'MkDocs Guide': 'setup-env/mkdocs-guide.md'
+    - Report Documents:
+        - QPMM Report: 
+            - BI Requirements: 
+                - Executive Summary: report-documents/QPMM-report/executive-summary.md
+                - Business Requirements: 
+                    - Cycle and Data Source: report-documents/QPMM-report/data-source.md
+                    - Business and Data Transformation: report-documents/QPMM-report/data-transformation.md
+                    - Metrics and KPI: report-documents/QPMM-report/kpi-specification.md
+                - Technical Requirements: 
+                    - Cardiac Scorecard: report-documents/QPMM-report/cardiac-specification.md
+                    - STEMI Scorecard: report-documents/QPMM-report/STEMI-specification.md
+            - ETL Process: report-documents/QPMM-report/QPMM-ETL.md
+            - SOP Execution: report-documents/QPMM-report/QPMM-SOP.md
+        - STEMI LHIN Report:
+            - BI Requirements: 
+                - Business Requirements: 
+                    - Cycle and Data Source: report-documents/STEM-LHIN-report/STEMI-data-source.md
+                    - Metrics and KPI: report-documents/STEM-LHIN-report/STEMI-LHIN-kpi-specification.md
+                - Technical Requirements: report-documents/STEM-LHIN-report/STEMI-LHIN-tech-specification.md
+            - ETL Process: report-documents/STEM-LHIN-report/STEMI-ETL.md
+            - SOP Execution: report-documents/STEM-LHIN-report/STEMI-SOP.md
