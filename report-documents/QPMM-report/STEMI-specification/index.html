@@ -1,0 +1,2518 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="Data Acquisition Reporting">
+      
+      
+        <link rel="canonical" href="http://localhost:8000/report-documents/QPMM-report/STEMI-specification/">
+      
+      
+        <meta name="author" content="Domina Tang">
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../../assets/images/logo.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.0.6">
+    
+    
+      
+        <title>STEMI Scorecard - DAR Project</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/application.451f80e5.css">
+      
+        <link rel="stylesheet" href="../../../assets/stylesheets/application-palette.22915126.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#009688">
+      
+    
+    
+      <script src="../../../assets/javascripts/modernizr.1aa3b519.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700|Source+Sans+Pro">
+        <style>body,input{font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Source Sans Pro","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../../assets/fonts/material-icons.css">
+    
+      <link rel="stylesheet" href="../../../css/extra.css">
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="teal" data-md-color-accent="teal">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448"
+    viewBox="0 0 416 448" id="__github">
+  <path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19-18.125
+        8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19 18.125-8.5
+        18.125 8.5 10.75 19 3.125 20.5zM320 304q0 10-3.125 20.5t-10.75
+        19-18.125 8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19
+        18.125-8.5 18.125 8.5 10.75 19 3.125 20.5zM360
+        304q0-30-17.25-51t-46.75-21q-10.25 0-48.75 5.25-17.75 2.75-39.25
+        2.75t-39.25-2.75q-38-5.25-48.75-5.25-29.5 0-46.75 21t-17.25 51q0 22 8
+        38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0
+        37.25-1.75t35-7.375 30.5-15 20.25-25.75 8-38.375zM416 260q0 51.75-15.25
+        82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5-41.75
+        1.125q-19.5 0-35.5-0.75t-36.875-3.125-38.125-7.5-34.25-12.875-30.25-20.25-21.5-28.75q-15.5-30.75-15.5-82.75
+        0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25
+        30.875q36.75-8.75 77.25-8.75 37 0 70 8 26.25-20.5
+        46.75-30.25t47.25-9.75q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34
+        99.5z" />
+</svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#stemi-case-definition" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <!--
+  Copyright (c) 2016-2018 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Application header -->
+<header class="md-header" data-md-component="header">
+
+  <!-- Top-level navigation -->
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+
+      <!-- Link to home -->
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="http://localhost:8000/"
+            title="DAR Project"
+            class="md-header-nav__button md-logo">
+          
+            <i class="md-icon">whatshot</i>
+          
+        </a>
+      </div>
+
+      <!-- Button to toggle drawer -->
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button"
+            for="__drawer"></label>
+      </div>
+
+      <!-- Header title -->
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title"
+            data-md-component="title">
+          
+            
+              <span class="md-header-nav__topic">
+                DAR Project
+              </span>
+              <span class="md-header-nav__topic">
+                STEMI Scorecard
+              </span>
+            
+          
+        </div>
+      </div>
+
+      <!-- Button to open search dialogue -->
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          
+            <label class="md-icon md-icon--search md-header-nav__button"
+                for="__search"></label>
+
+            <!-- Search interface -->
+            
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
+        
+      </div>
+<div class="md-flex__cell md-flex__cell--shrink" style="width:5rem;font-size:2rem;vertical-align:middle;text-align:right;" >
+<a id="icnToc" href="javascript:void(0);" class="fa fa-th-list" onclick="showHideToc();"></a>
+</div>
+      <!-- Repository containing source -->
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+
+  <a href="https://ccndevgithub.ccn.on.ca/CorHealth/report-wiki-menu-level/" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#__github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      GitHub
+    </div>
+  </a>
+
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+        
+
+  
+
+<nav class="md-tabs md-tabs--active" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  <li class="md-tabs__item">
+    
+      <a href="../../.." title="Introduction" class="md-tabs__link">
+        Introduction
+      </a>
+    
+  </li>
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../../setup-env/git-guide/" title="Setup Environment" class="md-tabs__link">
+          Setup Environment
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    
+    
+  
+  
+    
+    
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../executive-summary/" title="Report Documents" class="md-tabs__link md-tabs__link--active">
+          Report Documents
+        </a>
+      
+    </li>
+  
+
+  
+
+  
+
+      
+    </ul>
+  </div>
+</nav>
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="http://localhost:8000/" title="DAR Project" class="md-nav__button md-logo">
+      
+        <i class="md-icon">whatshot</i>
+      
+    </a>
+    DAR Project
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+
+  <a href="https://ccndevgithub.ccn.on.ca/CorHealth/report-wiki-menu-level/" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#__github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      GitHub
+    </div>
+  </a>
+
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../.." title="Introduction" class="md-nav__link">
+      Introduction
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Setup Environment
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Setup Environment
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../setup-env/git-guide/" title="Git Guide" class="md-nav__link">
+      Git Guide
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../setup-env/mkdocs-guide/" title="MkDocs Guide" class="md-nav__link">
+      MkDocs Guide
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+    
+    <label class="md-nav__link" for="nav-3">
+      Report Documents
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Report Documents
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-1" type="checkbox" id="nav-3-1" checked>
+    
+    <label class="md-nav__link" for="nav-3-1">
+      QPMM Report
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-1">
+        QPMM Report
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-1-1" type="checkbox" id="nav-3-1-1" checked>
+    
+    <label class="md-nav__link" for="nav-3-1-1">
+      BI Requirements
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-3-1-1">
+        BI Requirements
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../executive-summary/" title="Executive Summary" class="md-nav__link">
+      Executive Summary
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-1-1-2" type="checkbox" id="nav-3-1-1-2">
+    
+    <label class="md-nav__link" for="nav-3-1-1-2">
+      Business Requirements
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="4">
+      <label class="md-nav__title" for="nav-3-1-1-2">
+        Business Requirements
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../data-source/" title="Cycle and Data Source" class="md-nav__link">
+      Cycle and Data Source
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../data-transformation/" title="Business and Data Transformation" class="md-nav__link">
+      Business and Data Transformation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../kpi-specification/" title="Metrics and KPI" class="md-nav__link">
+      Metrics and KPI
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-1-1-3" type="checkbox" id="nav-3-1-1-3" checked>
+    
+    <label class="md-nav__link" for="nav-3-1-1-3">
+      Technical Requirements
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="4">
+      <label class="md-nav__title" for="nav-3-1-1-3">
+        Technical Requirements
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../cardiac-specification/" title="Cardiac Scorecard" class="md-nav__link">
+      Cardiac Scorecard
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        STEMI Scorecard
+      </label>
+    
+    <a href="./" title="STEMI Scorecard" class="md-nav__link md-nav__link--active">
+      STEMI Scorecard
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <!--
+  Copyright (c) 2016-2018 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Table of contents item -->
+<li class="md-nav__item">
+  
+	
+	 <a href="#stemi-case-definition" title="STEMI case Definition"
+      class="md-nav__link">
+	 
+    STEMI case Definition
+  </a>
+
+  <!-- Render nested item list -->
+  
+</li>
+      
+        <!--
+  Copyright (c) 2016-2018 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Table of contents item -->
+<li class="md-nav__item">
+  
+	
+	 <a href="#stemi-case-indicators" title="STEMI case indicators"
+      class="md-nav__link" style="border-bottom-style:dotted;border-width:1px;">
+	 
+	 
+    STEMI case indicators
+  </a>
+
+  <!-- Render nested item list -->
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <!--
+  Copyright (c) 2016-2018 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Table of contents item -->
+<li class="md-nav__item">
+  
+	
+	 <a href="#balloon-90-pci-indicator" title="Balloon 90 PCI Indicator"
+      class="md-nav__link">
+	 
+    Balloon 90 PCI Indicator
+  </a>
+
+  <!-- Render nested item list -->
+  
+</li>
+        
+          <!--
+  Copyright (c) 2016-2018 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Table of contents item -->
+<li class="md-nav__item">
+  
+	
+	 <a href="#balloon-non-120-pci-indicator" title="Balloon Non-120 PCI Indicator"
+      class="md-nav__link">
+	 
+    Balloon Non-120 PCI Indicator
+  </a>
+
+  <!-- Render nested item list -->
+  
+</li>
+        
+          <!--
+  Copyright (c) 2016-2018 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Table of contents item -->
+<li class="md-nav__item">
+  
+	
+	 <a href="#fibrinolytic-30-indicator" title="Fibrinolytic 30 Indicator"
+      class="md-nav__link">
+	 
+    Fibrinolytic 30 Indicator
+  </a>
+
+  <!-- Render nested item list -->
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <!--
+  Copyright (c) 2016-2018 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Table of contents item -->
+<li class="md-nav__item">
+  
+	
+	 <a href="#compute-columns-design" title="Compute Columns Design"
+      class="md-nav__link" style="border-bottom-style:dotted;border-width:1px;">
+	 
+	 
+    Compute Columns Design
+  </a>
+
+  <!-- Render nested item list -->
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <!--
+  Copyright (c) 2016-2018 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Table of contents item -->
+<li class="md-nav__item">
+  
+	
+	 <a href="#1-presentation-calculation" title="1. Presentation Calculation"
+      class="md-nav__link">
+	 
+    1. Presentation Calculation
+  </a>
+
+  <!-- Render nested item list -->
+  
+</li>
+        
+          <!--
+  Copyright (c) 2016-2018 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Table of contents item -->
+<li class="md-nav__item">
+  
+	
+	 <a href="#2-grouping-calculation" title="2. Grouping Calculation"
+      class="md-nav__link">
+	 
+    2. Grouping Calculation
+  </a>
+
+  <!-- Render nested item list -->
+  
+</li>
+        
+          <!--
+  Copyright (c) 2016-2018 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Table of contents item -->
+<li class="md-nav__item">
+  
+	
+	 <a href="#3-reperfusion-time-calculation" title="3. Reperfusion Time Calculation"
+      class="md-nav__link">
+	 
+    3. Reperfusion Time Calculation
+  </a>
+
+  <!-- Render nested item list -->
+  
+</li>
+        
+          <!--
+  Copyright (c) 2016-2018 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Table of contents item -->
+<li class="md-nav__item">
+  
+	
+	 <a href="#4-lytic-grouping-calculation" title="4. Lytic Grouping Calculation"
+      class="md-nav__link">
+	 
+    4. Lytic Grouping Calculation
+  </a>
+
+  <!-- Render nested item list -->
+  
+</li>
+        
+          <!--
+  Copyright (c) 2016-2018 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Table of contents item -->
+<li class="md-nav__item">
+  
+	
+	 <a href="#5-lytic-time-calculation" title="5. Lytic Time Calculation"
+      class="md-nav__link">
+	 
+    5. Lytic Time Calculation
+  </a>
+
+  <!-- Render nested item list -->
+  
+</li>
+        
+          <!--
+  Copyright (c) 2016-2018 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Table of contents item -->
+<li class="md-nav__item">
+  
+	
+	 <a href="#6-lytic-site-calculation" title="6. Lytic Site Calculation"
+      class="md-nav__link">
+	 
+    6. Lytic Site Calculation
+  </a>
+
+  <!-- Render nested item list -->
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../QPMM-ETL/" title="ETL Process" class="md-nav__link">
+      ETL Process
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../QPMM-SOP/" title="SOP Execution" class="md-nav__link">
+      SOP Execution
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-2" type="checkbox" id="nav-3-2">
+    
+    <label class="md-nav__link" for="nav-3-2">
+      STEMI LHIN Report
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-2">
+        STEMI LHIN Report
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-2-1" type="checkbox" id="nav-3-2-1">
+    
+    <label class="md-nav__link" for="nav-3-2-1">
+      BI Requirements
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-3-2-1">
+        BI Requirements
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-2-1-1" type="checkbox" id="nav-3-2-1-1">
+    
+    <label class="md-nav__link" for="nav-3-2-1-1">
+      Business Requirements
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="4">
+      <label class="md-nav__title" for="nav-3-2-1-1">
+        Business Requirements
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../STEM-LHIN-report/STEMI-data-source/" title="Cycle and Data Source" class="md-nav__link">
+      Cycle and Data Source
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../STEM-LHIN-report/STEMI-LHIN-kpi-specification/" title="Metrics and KPI" class="md-nav__link">
+      Metrics and KPI
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../STEM-LHIN-report/STEMI-LHIN-tech-specification/" title="Technical Requirements" class="md-nav__link">
+      Technical Requirements
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../STEM-LHIN-report/STEMI-ETL/" title="ETL Process" class="md-nav__link">
+      ETL Process
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../STEM-LHIN-report/STEMI-SOP/" title="SOP Execution" class="md-nav__link">
+      SOP Execution
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <!--
+  Copyright (c) 2016-2018 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Table of contents item -->
+<li class="md-nav__item">
+  
+	
+	 <a href="#stemi-case-definition" title="STEMI case Definition"
+      class="md-nav__link">
+	 
+    STEMI case Definition
+  </a>
+
+  <!-- Render nested item list -->
+  
+</li>
+      
+        <!--
+  Copyright (c) 2016-2018 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Table of contents item -->
+<li class="md-nav__item">
+  
+	
+	 <a href="#stemi-case-indicators" title="STEMI case indicators"
+      class="md-nav__link" style="border-bottom-style:dotted;border-width:1px;">
+	 
+	 
+    STEMI case indicators
+  </a>
+
+  <!-- Render nested item list -->
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <!--
+  Copyright (c) 2016-2018 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Table of contents item -->
+<li class="md-nav__item">
+  
+	
+	 <a href="#balloon-90-pci-indicator" title="Balloon 90 PCI Indicator"
+      class="md-nav__link">
+	 
+    Balloon 90 PCI Indicator
+  </a>
+
+  <!-- Render nested item list -->
+  
+</li>
+        
+          <!--
+  Copyright (c) 2016-2018 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Table of contents item -->
+<li class="md-nav__item">
+  
+	
+	 <a href="#balloon-non-120-pci-indicator" title="Balloon Non-120 PCI Indicator"
+      class="md-nav__link">
+	 
+    Balloon Non-120 PCI Indicator
+  </a>
+
+  <!-- Render nested item list -->
+  
+</li>
+        
+          <!--
+  Copyright (c) 2016-2018 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Table of contents item -->
+<li class="md-nav__item">
+  
+	
+	 <a href="#fibrinolytic-30-indicator" title="Fibrinolytic 30 Indicator"
+      class="md-nav__link">
+	 
+    Fibrinolytic 30 Indicator
+  </a>
+
+  <!-- Render nested item list -->
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <!--
+  Copyright (c) 2016-2018 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Table of contents item -->
+<li class="md-nav__item">
+  
+	
+	 <a href="#compute-columns-design" title="Compute Columns Design"
+      class="md-nav__link" style="border-bottom-style:dotted;border-width:1px;">
+	 
+	 
+    Compute Columns Design
+  </a>
+
+  <!-- Render nested item list -->
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <!--
+  Copyright (c) 2016-2018 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Table of contents item -->
+<li class="md-nav__item">
+  
+	
+	 <a href="#1-presentation-calculation" title="1. Presentation Calculation"
+      class="md-nav__link">
+	 
+    1. Presentation Calculation
+  </a>
+
+  <!-- Render nested item list -->
+  
+</li>
+        
+          <!--
+  Copyright (c) 2016-2018 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Table of contents item -->
+<li class="md-nav__item">
+  
+	
+	 <a href="#2-grouping-calculation" title="2. Grouping Calculation"
+      class="md-nav__link">
+	 
+    2. Grouping Calculation
+  </a>
+
+  <!-- Render nested item list -->
+  
+</li>
+        
+          <!--
+  Copyright (c) 2016-2018 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Table of contents item -->
+<li class="md-nav__item">
+  
+	
+	 <a href="#3-reperfusion-time-calculation" title="3. Reperfusion Time Calculation"
+      class="md-nav__link">
+	 
+    3. Reperfusion Time Calculation
+  </a>
+
+  <!-- Render nested item list -->
+  
+</li>
+        
+          <!--
+  Copyright (c) 2016-2018 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Table of contents item -->
+<li class="md-nav__item">
+  
+	
+	 <a href="#4-lytic-grouping-calculation" title="4. Lytic Grouping Calculation"
+      class="md-nav__link">
+	 
+    4. Lytic Grouping Calculation
+  </a>
+
+  <!-- Render nested item list -->
+  
+</li>
+        
+          <!--
+  Copyright (c) 2016-2018 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Table of contents item -->
+<li class="md-nav__item">
+  
+	
+	 <a href="#5-lytic-time-calculation" title="5. Lytic Time Calculation"
+      class="md-nav__link">
+	 
+    5. Lytic Time Calculation
+  </a>
+
+  <!-- Render nested item list -->
+  
+</li>
+        
+          <!--
+  Copyright (c) 2016-2018 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Table of contents item -->
+<li class="md-nav__item">
+  
+	
+	 <a href="#6-lytic-site-calculation" title="6. Lytic Site Calculation"
+      class="md-nav__link">
+	 
+    6. Lytic Site Calculation
+  </a>
+
+  <!-- Render nested item list -->
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://ccndevgithub.ccn.on.ca/CorHealth/report-wiki-menu-level/tree/master/project-documents/docs/report-documents/QPMM-report/STEMI-specification.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                  <h1>STEMI Scorecard</h1>
+                
+                <h2 id="stemi-case-definition">STEMI case Definition<a class="headerlink" href="#stemi-case-definition" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Data entry that fulfills the following filters is a STEMI case data.</li>
+</ul>
+<p><em>'AND' relationship between each filter in the table below</em></p>
+<table>
+<thead>
+<tr>
+<th>Table Name</th>
+<th>Column Name</th>
+<th>Column Nullable?</th>
+<th>Inclusion Value(s)</th>
+<th>Join Column</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CardiacWaitListEntry</td>
+<td>WaitTimeProcedureCD</td>
+<td>Not Null</td>
+<td>'W.CAR.CATHD.CA'</td>
+<td>WaitlistEntryID</td>
+</tr>
+<tr>
+<td>CardiacWaitListEntry</td>
+<td>RemovalReasonCD</td>
+<td>Null</td>
+<td>'PS'</td>
+<td></td>
+</tr>
+<tr>
+<td>CardiacReferral</td>
+<td>ReferralPrimaryReasonCD</td>
+<td>Null</td>
+<td>'D'</td>
+<td>WaitlistEntryID</td>
+</tr>
+<tr>
+<td>CardiacReferral</td>
+<td>ReferralPrimaryReasonTypeCD</td>
+<td>Null</td>
+<td>'S'</td>
+<td>WaitlistEntryID</td>
+</tr>
+<tr>
+<td>CardiacStemiActivity</td>
+<td>PPInHospitalPatient_IND</td>
+<td>Null (<em>Y/N only</em>)</td>
+<td>!='Y'</td>
+<td>WaitlistEntryID</td>
+</tr>
+<tr>
+<td>CardiacWaitListEntry</td>
+<td>Facility Number for AcceptanceSiteNumber</td>
+<td>Null</td>
+<td>Must within <a href="../data-transformation/#cardiac-program-centers-list">Advance Program Center List</a> and is a STEMI site</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<details class="notes" open="open"><summary>Notes</summary><ul>
+<li>For the PPInHospitalPatient_IND condition in above table, current code get all records that with either PPInHospitalPatient_IND = 'Y' or PPAmbulance_IND = 'Y' or PPSelfTransport_IND = 'Y' as  STEMI raw records</li>
+</ul>
+</details>
+<h2 id="stemi-case-indicators">STEMI case indicators<a class="headerlink" href="#stemi-case-indicators" title="Permanent link">&para;</a></h2>
+<h3 id="balloon-90-pci-indicator">Balloon 90 PCI Indicator<a class="headerlink" href="#balloon-90-pci-indicator" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Table Name</th>
+<th>Column Name</th>
+<th>Column Nullable?</th>
+<th>Inclusion Value(s)</th>
+<th>Join Column</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CardiacStemiActivity</td>
+<td>FibrinolysisAdministered_CD</td>
+<td>Null (<em>data</em>)</td>
+<td>'N'</td>
+<td>WaitlistEntryID</td>
+</tr>
+<tr>
+<td>CardiacOfflistingDetails</td>
+<td>Cath_ProcedureDonePrimaryReperfusionIND (<em>PPCI</em>)</td>
+<td>Not Null</td>
+<td>'Y'</td>
+<td>WaitlistEntryID</td>
+</tr>
+<tr>
+<td>Compute</td>
+<td>Grouping</td>
+<td>Not Null</td>
+<td>in ('Ambulance PCI', 'Self PCI')</td>
+<td>Please see <a href="./#2-grouping-calculation">Grouping Calculation</a> for details</td>
+</tr>
+<tr>
+<td>Compute</td>
+<td>Reperfusion Time</td>
+<td>Null</td>
+<td>&lt;= 90</td>
+<td>Please see <a href="./##3-reperfusion-time-calculation">Reperfusion Time Calculation</a> for details</td>
+</tr>
+</tbody>
+</table>
+<details class="important" open="open"><summary>Notes</summary><ul>
+<li>From Grouping Calculation, the first two conditions (row 1 and 2) are redundant when Grouping column has value "Ambulance PCI" or "Self PCI"</li>
+<li>When Grouping column has value "Ambulance PCI" or "Self PCI", it also means the "Data Quality" records (whose grouping value are "PCI No Data") are also excluded</li>
+</ul>
+</details>
+<h3 id="balloon-non-120-pci-indicator">Balloon Non-120 PCI Indicator<a class="headerlink" href="#balloon-non-120-pci-indicator" title="Permanent link">&para;</a></h3>
+<p>'AND' relationship between each condition in the table below</p>
+<table>
+<thead>
+<tr>
+<th>Table Name</th>
+<th>Column Name</th>
+<th>Column Nullable?</th>
+<th>Indicator Value(s)</th>
+<th>Join Column</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CardiacStemiActivity</td>
+<td>FibrinolysisAdministered_CD</td>
+<td>Null (<em>data</em>)</td>
+<td>'N'</td>
+<td>WaitlistEntryID</td>
+</tr>
+<tr>
+<td>CardiacOfflistingDetails</td>
+<td>Cath_ProcedureDonePrimaryReperfusionIND (<em>PPCI</em>)</td>
+<td>Not Null</td>
+<td>'Y'</td>
+<td>WaitlistEntryID</td>
+</tr>
+<tr>
+<td>CardiacStemiActivity</td>
+<td>PPDirectFieldToCath_IND</td>
+<td>Null (<em>Y/N only</em>)</td>
+<td>!= 'Y'</td>
+<td>WaitlistEntryID</td>
+</tr>
+<tr>
+<td>Compute</td>
+<td>Grouping</td>
+<td>Not Null</td>
+<td>'Non-PCI'</td>
+<td>Please see <a href="./#2-grouping-calculation">Grouup Calculation</a> for details</td>
+</tr>
+<tr>
+<td>Compute</td>
+<td>Reperfusion Time</td>
+<td>Null</td>
+<td>&lt;= 120</td>
+<td>Please see <a href="./#3-reperfusion-time-calculation">Reperfusion Time Calculation</a> for details</td>
+</tr>
+</tbody>
+</table>
+<details class="important" open="open"><summary>Notes</summary><ul>
+<li>From Grouping Calculation, the first three conditions (row 1, 2 and 3) are redundant when Grouping column has value "Non-PCI"</li>
+<li>When Grouping column has value "Non-PCI", it also means the "Data Quality" records (whose grouping value are "Non-PCI No Data") are also excluded</li>
+</ul>
+</details>
+<h3 id="fibrinolytic-30-indicator">Fibrinolytic 30 Indicator<a class="headerlink" href="#fibrinolytic-30-indicator" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Table Name</th>
+<th>Column Name</th>
+<th>Column Nullable?</th>
+<th>Indicator Value(s)</th>
+<th>Join Column</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CardiacStemiActivity</td>
+<td>FibrinolysisAdministered_CD</td>
+<td>Null (<em>data</em>)</td>
+<td>'Y'</td>
+<td>WaitlistEntryID}</td>
+</tr>
+<tr>
+<td>CardiacStemiActivity</td>
+<td>PPDirectFieldToCath_IND</td>
+<td>Null (<em>Y/N only</em>)</td>
+<td>!= 'Y'</td>
+<td>WaitlistEntryID}</td>
+</tr>
+<tr>
+<td>Compute</td>
+<td>Lytic Grouping</td>
+<td>Not Null</td>
+<td>'Lytic'</td>
+<td>Please see <a href="./#4-lytic-grouping-calculation">Lytic Grouping Calculation</a> for details</td>
+</tr>
+<tr>
+<td>Compute</td>
+<td>Lytic Time</td>
+<td>Null</td>
+<td>&lt;= 30</td>
+<td>Please see <a href="./#5-lytic-time-calculation">Lytic Time Calculation</a> for details</td>
+</tr>
+</tbody>
+</table>
+<details class="important" open="open"><summary>Notes</summary><ul>
+<li>From Lytic Grouping Calculation, the first tow conditions (row 1 and 2) are redundant when Lytic Grouping column has value "Lytic"</li>
+<li>When Lytic Grouping column has value "Non-PCI", it also means the "Data Quality" records (whose grouping value are "Non-PCI No Data") are also excluded</li>
+</ul>
+</details>
+<h2 id="compute-columns-design">Compute Columns Design<a class="headerlink" href="#compute-columns-design" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Column Name</th>
+<th>Source Columns</th>
+<th>Column Nullable?</th>
+<th>Column Type</th>
+<th>Compute Values</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>STEMI Fiscal year and Quater</td>
+<td>RemovalDate</td>
+<td>Not Null</td>
+<td>varchar(20)</td>
+<td>sample: 17/18 Q1</td>
+<td>The fiscal year starts from April 1<sup>st</sup> to March 31th next year, April to June is the first quarter of the fiscal year</td>
+</tr>
+<tr>
+<td>Presentation</td>
+<td>3 columns involve presentation calculation</td>
+<td>Not Null</td>
+<td>varchar(30)</td>
+<td>'No Presentation'<br>'Too Many Presentation'<br>'Ambulance'<br>'Self-Transport'<br>'In-Hospital'</td>
+<td>See <a href="./#1-presentation-calculation">Presentation Calcution</a> for details</td>
+</tr>
+<tr>
+<td>Grouping</td>
+<td>All columns involve grouping calculation</td>
+<td>Not Null</td>
+<td>varchar(30)</td>
+<td>'In-Hospital'<br>'Not PPCI'<br>'Fibrinolysis'<br>Fibrinolysis Contraindicated'<br>'Non-PCI Exclude'<br>'Non-PCI No Data'<br>'PCI No Data'<br>'Ambulance PCI'<br>'Self PCI'<br>'Check'</td>
+<td>See <a href="./#2-grouping-calculation">Grouping Calcution</a> for details</td>
+</tr>
+<tr>
+<td>Reperfusion Time</td>
+<td>All columns involve reperfusion time calculation</td>
+<td>Null</td>
+<td>int</td>
+<td>minutes</td>
+<td>See <a href="./#3-reperfusion-time-calculation">Reperfusion Time</a> for details</td>
+</tr>
+<tr>
+<td>Lytic Grouping</td>
+<td>All columns involve lytic grouping calculation</td>
+<td>Not Null</td>
+<td>varchar(20)</td>
+<td>'In-Hospital'<br>'No Lytic'<br>'Direct to Cath Lab'<br>'Missing Location'<br>'Data Quality'<br>'Lytic'<br>'Check'</td>
+<td>See <a href="./#2-grouping-calculation">Lytic Grouping</a> for details</td>
+</tr>
+<tr>
+<td>Lytic Time</td>
+<td>All columns involve reperfusion time calculation</td>
+<td>Null</td>
+<td>int</td>
+<td>minutes</td>
+<td>See <a href="./#5-lytic-time-calculation">Lytic Time</a> for details</td>
+</tr>
+</tbody>
+</table>
+<h3 id="1-presentation-calculation">1. Presentation Calculation<a class="headerlink" href="#1-presentation-calculation" title="Permanent link">&para;</a></h3>
+<p><em>'OR' relationship between each condition in the table below, first meet condition returns</em></p>
+<table>
+<thead>
+<tr>
+<th>Table Name</th>
+<th>Column Name(s)</th>
+<th>Column Nullable?</th>
+<th>Condition</th>
+<th>Calculated Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CardiacStemiActivity</td>
+<td>PPAmbulance_IND<br>PPSelfTransport_IND<br>PPInHospitalPatient_IND</td>
+<td>Null (Y/N only)</td>
+<td>All  Nulls</td>
+<td>'No Presentation'</td>
+</tr>
+<tr>
+<td>CardiacStemiActivity</td>
+<td>Same as above</td>
+<td>Null (Y/N only)</td>
+<td>More than one 'Y'</td>
+<td>'Too Many Presentation'</td>
+</tr>
+<tr>
+<td>CardiacStemiActivity</td>
+<td>PPAmbulance_IND</td>
+<td>Null (Y/N only)</td>
+<td>'Y'</td>
+<td>'Ambulance'</td>
+</tr>
+<tr>
+<td>CardiacStemiActivity</td>
+<td>PPSelfTransport_IND</td>
+<td>Null (Y/N only)</td>
+<td>'Y'</td>
+<td>'Self-Transport'</td>
+</tr>
+<tr>
+<td>CardiacStemiActivity</td>
+<td>PPInHospitalPatient_IND</td>
+<td>Null (Y/N only)</td>
+<td>'Y'</td>
+<td>'In-Hospital'</td>
+</tr>
+</tbody>
+</table>
+<details class="danger" open="open"><summary>Discusss</summary><ul>
+<li>Presentation column seems not used anywhere in Excel Template file for calculation</li>
+<li>According to Excel file "Scordcard STEMI Report Specificaitons", there are more rules should be added, such as if PPFieldToEDPCIHospital_IND = 'Y', then PPAmbulance_IND must be 'Y' and PPFieldToEDNonPCIHospital_IND must be 'N', otherwise the case should be excluded for indicator calculation</li>
+<li>However, from Wait Time applicatio UI, user actually cannot enter such bad data into Wait Time database</li>
+</ul>
+</details>
+<h3 id="2-grouping-calculation">2. Grouping Calculation<a class="headerlink" href="#2-grouping-calculation" title="Permanent link">&para;</a></h3>
+<p><em>'OR' relationship between each condition in the table below, first meet condition returns</em></p>
+<table>
+<thead>
+<tr>
+<th>Table Name</th>
+<th>Column Name(s)</th>
+<th>Column Nullable?</th>
+<th>Condition</th>
+<th>Calculated Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CardiacStemiActivity</td>
+<td>PPInHospitalPatient_IND</td>
+<td>Null (Y/N only)</td>
+<td>'Y'</td>
+<td>'In-Hospital'</td>
+</tr>
+<tr>
+<td>CardiacOfflistingDetails</td>
+<td>Cath_ProcedureDonePrimaryReperfusionIND</td>
+<td>Not Null</td>
+<td>'N'</td>
+<td>'Not PPCI'</td>
+</tr>
+<tr>
+<td>CardiacStemiActivity</td>
+<td>FibrinolysisAdministered_CD</td>
+<td>Null (Y,N,F,Null)</td>
+<td>in ('Y',<strong>Null</strong>)</td>
+<td>'Fibrinolysis'</td>
+</tr>
+<tr>
+<td>CardiacStemiActivity</td>
+<td>FibrinolysisAdministered_CD</td>
+<td>Null (Y,N,F,Null)</td>
+<td>'F'</td>
+<td>'Fibrinolysis Contraindicated'</td>
+</tr>
+<tr>
+<td>CardiacStemiActivity</td>
+<td>PPAmbulance_IND<br>PPFieldToEDNonPCIHospital_IND<br>SiteName for PP_NonPCISiteNumber<br></td>
+<td>Null (Y/N only)<br>Null (Y/N only)<br>Null</td>
+<td>'Y' +<br>'Y' +<br>in('Other',Null)</td>
+<td>'Non-PCI Exclude'</td>
+</tr>
+<tr>
+<td>CardiacStemiActivity</td>
+<td>PPSelfTransport_IND<br>PPSelfTransportToNonPCIHospital_IND<br>SiteName for PP_NonPCISiteNumber<br></td>
+<td>Null (Y/N only)<br>Null (Y/N only)<br>Null</td>
+<td>'Y' +<br>'Y' +<br>in('Other',Null)</td>
+<td>'Non-PCI Exclude'</td>
+</tr>
+<tr>
+<td>CardiacStemiActivity</td>
+<td>PPAmbulance_IND<br>PPFieldToEDNonPCIHospital_IND<br>( First Hospital Arrival DateTime<br>First Balloon Inflation/Device DateTime<br>)</td>
+<td>Null (Y/N only)<br>Null (Y/N only)<br>Null<br>Null</td>
+<td>'Y' +<br>'Y' +<br> (Null or <br>Null or<br>First Hospital Arrival DateTime &gt; First Balloon Inflation/Device DateTime )</td>
+<td>'Non-PCI No Data'</td>
+</tr>
+<tr>
+<td>CardiacStemiActivity</td>
+<td>PPSelfTransport_IND<br>PPSelfTransportToNonPCIHospital_IND<br>( First Hospital Arrival DateTime<br>First Balloon Inflation/Device DateTime<br>)</td>
+<td>Null (Y/N only)<br>Null (Y/N only)<br>Null<br>Null</td>
+<td>'Y' +<br>'Y' +<br> (Null or <br>Null or<br>First Hospital Arrival DateTime &gt; First Balloon Inflation/Device DateTime )</td>
+<td>'Non-PCI No Data'</td>
+</tr>
+<tr>
+<td>CardiacStemiActivity</td>
+<td>PPAmbulance_IND<br>(PPFieldToEDPCIHospital_IND <br>PPDirectFieldToCath_IND)<br>( <strong>First Contact with Paramedics DateTime</strong><br>First Balloon Inflation/Device DateTime<br><br>)</td>
+<td>Null (Y/N only)<br>Null (Y/N only)<br>Null (Y/N only)<br>Null<br>Null</td>
+<td>'Y' + <br>('Y' or<br>'Y') +<br> (Null or <br>Null or<br> <strong>First Contact with Paramedics DateTime</strong> &gt; First Balloon Inflation/Device DateTime )</td>
+<td>'PCI No Data'</td>
+</tr>
+<tr>
+<td>CardiacStemiActivity</td>
+<td>PPSelfTransport_IND<br>PPSelfTransportToPCIHospital_IND<br>( First Hospital Arrival DateTime<br>First Balloon Inflation/Device DateTime<br>)</td>
+<td>Null (Y/N only)<br>Null (Y/N only)<br>Null<br>Null</td>
+<td>'Y' +<br>'Y' +<br> (Null or <br>Null or<br>First Hospital Arrival DateTime &gt; First Balloon Inflation/Device DateTime )</td>
+<td>'PCI No Data'</td>
+</tr>
+<tr>
+<td>CardiacStemiActivity</td>
+<td>PPAmbulance_IND<br>(PPFieldToEDPCIHospital_IND <br>PPDirectFieldToCath_IND)</td>
+<td>Null (Y/N only)<br>Null (Y/N only)<br>Null (Y/N only)</td>
+<td>'Y' + <br>('Y' or<br>'Y')</td>
+<td>'Ambulance PCI'</td>
+</tr>
+<tr>
+<td>CardiacStemiActivity</td>
+<td>PPSelfTransport_IND<br>PPSelfTransportToPCIHospital_IND</td>
+<td>Null (Y/N only)<br>Null (Y/N only)</td>
+<td>'Y' +<br>'Y'</td>
+<td>'Self PCI'</td>
+</tr>
+<tr>
+<td>CardiacStemiActivity</td>
+<td>PPAmbulance_IND<br>PPFieldToEDNonPCIHospital_IND</td>
+<td>Null (Y/N only)<br>Null (Y/N only)</td>
+<td>'Y' + <br>'Y'</td>
+<td>'Non-PCI'</td>
+</tr>
+<tr>
+<td>CardiacStemiActivity</td>
+<td>PPAmbulance_IND<br>PPSelfTransportToNoPCIHospital_IND</td>
+<td>Null (Y/N only)<br>Null (Y/N only)</td>
+<td>'Y' + <br>'Y'</td>
+<td>'Non-PCI'</td>
+</tr>
+<tr>
+<td>else</td>
+<td></td>
+<td></td>
+<td></td>
+<td>'Check'</td>
+</tr>
+</tbody>
+</table>
+<details class="danger" open="open"><summary>Discuss</summary><ul>
+<li>Row 5 formula: Except "Other" as SiteName for PP_NonPCISiteNumber, there are possible site names "Medical Facility Outside of Country" and "Medical Facility Outside of Ontario". Record with these two site name should also fall into 'Non-PCI Exclude' bucket. Luckily, Wait time production database has no any record has site name for PP_NonPCISiteNumber as "Other", "Medical Facility Outside of Country" nor "Medical Facility Outside of Ontario".</li>
+</ul>
+</details>
+<h3 id="3-reperfusion-time-calculation">3. Reperfusion Time Calculation<a class="headerlink" href="#3-reperfusion-time-calculation" title="Permanent link">&para;</a></h3>
+<p><em>'OR' relationship between each condition in the table below, first meet condition returns</em></p>
+<table>
+<thead>
+<tr>
+<th>Table Name</th>
+<th>Column Name(s)</th>
+<th>Column Nullable?</th>
+<th>Condition</th>
+<th>Calculated Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Compute</td>
+<td>Grouping</td>
+<td>Not Null</td>
+<td>in ('In-Hospital',<br> 'Not PPCI',<br>  'Fibrinolysis',<br>  'Fibrinolysis Contraindicated',<br> 'Non-PCI Exclude',<br>  'Non-PCI No Data',<br>  'PCI No Data',<br>  'Check')</td>
+<td>Null</td>
+</tr>
+<tr>
+<td>Compute<br>CardiacStemiActivity</td>
+<td>Grouping<br>FirstBalloonInflation_Date FirstBalloonInflation_Time<br>FirstContactParamedics_Date FirstContactParamedics_Time</td>
+<td>Not Null<br>Null<br>Null</td>
+<td>'Ambulance PCI'</td>
+<td>(First Balloon Inflation/Device DateTime - First Contact with Paramedics DateTime) in rounded minutes</td>
+</tr>
+<tr>
+<td>Compute<br>CardiacStemiActivity</td>
+<td>Grouping<br>FirstBalloonInflation_Date FirstBalloonInflation_Time<br>FirstHospitalArrival_Date FirstHospitalArrival_Time</td>
+<td>Not Null<br>Null<br>Null</td>
+<td>'Self PCI'</td>
+<td>(First Balloon Inflation/Device DateTime - First Hospital Arrival DateTime) in rounded minutes</td>
+</tr>
+<tr>
+<td>Compute<br>CardiacStemiActivity</td>
+<td>Grouping<br>FirstBalloonInflation_Date FirstBalloonInflation_Time<br>FirstHospitalArrival_Date FirstHospitalArrival_Time</td>
+<td>Not Null<br>Null<br>Null</td>
+<td>'Non PCI'</td>
+<td>(First Balloon Inflation/Device DateTime - First Hospital Arrival DateTime) in rounded minutes</td>
+</tr>
+</tbody>
+</table>
+<h3 id="4-lytic-grouping-calculation">4. Lytic Grouping Calculation<a class="headerlink" href="#4-lytic-grouping-calculation" title="Permanent link">&para;</a></h3>
+<p><em>'OR' relationship between each condition in the table below, first meet condition returns</em></p>
+<table>
+<thead>
+<tr>
+<th>Table Name</th>
+<th>Column Name(s)</th>
+<th>Column Nullable?</th>
+<th>Condition</th>
+<th>Calculated Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CardiacStemiActivity</td>
+<td>PPInHospitalPatient_IND</td>
+<td>Null (Y/N only)</td>
+<td>'Y'</td>
+<td>'In-Hospital'</td>
+</tr>
+<tr>
+<td>CardiacStemiActivity</td>
+<td>FibrinolysisAdministered_CD</td>
+<td>Null (Y,N,F,Null)</td>
+<td>in ('N','F',<strong>Null</strong>)</td>
+<td>'No Lytic'</td>
+</tr>
+<tr>
+<td>CardiacStemiActivity</td>
+<td>PPDirectFieldToCath_IND</td>
+<td>Null (Y/N only)</td>
+<td>'Y'</td>
+<td>'Direct to Cath Lab'</td>
+</tr>
+<tr>
+<td>CardiacStemiActivity</td>
+<td>( PPFieldToEDNonPCIHospital_IND<br>PPSelfTransportToNonPCIHospital_IND)+<br>SiteName for PP_NonPCISiteNumber</td>
+<td>Null (Y/N only)<br>Null (Y/N only)<br>Null</td>
+<td>('Y' or<br>'Y') + <br> in ('Other','Medical Facility Outside of Country','Null')</td>
+<td>'Missing Location'</td>
+</tr>
+<tr>
+<td>CardiacStemiActivity</td>
+<td>FirstHospitalArrival_Date<br>FirstHospitalArrival_Time<br>InitialTherapy_DateGiven_Date<br>InitialTherapy_DateGiven_Time</td>
+<td>Null<br>Null</td>
+<td>Any column is null or <br>First Hospital Arrival DateTime &gt; Initial Therapy Given DataTime</td>
+<td>'Data Quality'</td>
+</tr>
+<tr>
+<td>CardiacStemiActivity</td>
+<td>PPAmbulance_IND<br>PPSelfTransport_IND</td>
+<td>Null (Y/N only)<br>Null (Y/N only)</td>
+<td>'Y' or<br>'Y'</td>
+<td>'Lytic'</td>
+</tr>
+<tr>
+<td>else</td>
+<td></td>
+<td></td>
+<td></td>
+<td>'Check'</td>
+</tr>
+</tbody>
+</table>
+<details class="note" open="open"><summary>Note</summary><ul>
+<li>In Wait Time production database, there is no any record that PP_NonPCISiteNumber value is "Other" or "Facility OUtside of Country/Ontario"</li>
+</ul>
+</details>
+<h3 id="5-lytic-time-calculation">5. Lytic Time Calculation<a class="headerlink" href="#5-lytic-time-calculation" title="Permanent link">&para;</a></h3>
+<p><em>'OR' relationship between each condition in the table below, first meet condition returns</em></p>
+<table>
+<thead>
+<tr>
+<th>Table Name</th>
+<th>Column Name(s)</th>
+<th>Column Nullable?</th>
+<th>Condition</th>
+<th>Calculated Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Compute</td>
+<td>Lytic Grouping</td>
+<td>Not Null</td>
+<td>in ('In-Hospital',<br> 'No Lytic', <br>'Direct to Cath Lab',<br>'Missing Location', <br>'Data Quality' )</td>
+<td>Null</td>
+</tr>
+<tr>
+<td>Compute</td>
+<td>Lytic Grouping<br>FirstHospitalArrival_Date<br>FirstHospitalArrival_Time<br>InitialTherapy_DateGiven_Date<br>InitialTherapy_DateGiven_Time</td>
+<td>Not Null<br>Null<br>Null</td>
+<td>'Lytic'</td>
+<td>Initial Therapy Given DateTime - First Hospital Arrival DateTime rounded in minutes</td>
+</tr>
+</tbody>
+</table>
+<h3 id="6-lytic-site-calculation">6. Lytic Site Calculation<a class="headerlink" href="#6-lytic-site-calculation" title="Permanent link">&para;</a></h3>
+<p><em>'OR' relationship between each condition in the table below, first meet condition returns</em></p>
+<table>
+<thead>
+<tr>
+<th>Table Name</th>
+<th>Column Name(s)</th>
+<th>Column Nullable?</th>
+<th>Condition</th>
+<th>Calculated Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Compute</td>
+<td>Lytic Grouping</td>
+<td>Not Null</td>
+<td>in ('In-Hospital',<br> 'No Lytic', <br>'Direct to Cath Lab')</td>
+<td>Null</td>
+</tr>
+<tr>
+<td>Compute<br>CardiacStemiActivity</td>
+<td>Grouping<br> (PPFieldToEDPCIHospital_IND<br>PPSelfTransportToPCIHospital_IND)</td>
+<td>Not Null<br>Null (Y/N only)<br>Null (Y/N only)</td>
+<td>'Data Quality' + <br>('Y' or<br>'Y')</td>
+<td>[Planned Service Location ( SiteName for AcceptanceSiteNumber)] + "Data Quality"</td>
+</tr>
+<tr>
+<td>Compute<br>CardiacStemiActivity</td>
+<td>Grouping<br> (PPFieldToEDNonPCIHospital_IND<br>PPSelfTransportToNonPCIHospital_IND)<br>Site Name for PP_NonPCISiteNumber</td>
+<td>Not Null<br>Null (Y/N only)<br>Null (Y/N only)<br>Null</td>
+<td>'Data Quality' + <br>('Y' or<br>'Y') +<br> Empty/Null</td>
+<td>NULL</td>
+</tr>
+<tr>
+<td>Compute<br>CardiacStemiActivity</td>
+<td>Grouping<br> (PPFieldToEDNonPCIHospital_IND<br>PPSelfTransportToNonPCIHospital_IND)</td>
+<td>Not Null<br>Null (Y/N only)<br>Null (Y/N only)</td>
+<td>'Data Quality' + <br>('Y' or<br>'Y')</td>
+<td>[Site Name for PP_NonPCISiteNumber] + "Data Quality"</td>
+</tr>
+<tr>
+<td>CardiacStemiActivity</td>
+<td>(PPFieldToEDPCIHospital_IND<br>PPSelfTransportToPCIHospital_IND)</td>
+<td>Null (Y/N only)<br>Null (Y/N only)</td>
+<td>'Y' or<br>'Y'</td>
+<td>[Planned Service Location (SiteName for AcceptanceSiteNumber)]</td>
+</tr>
+<tr>
+<td>CardiacStemiActivity</td>
+<td>(PPFieldToEDNonPCIHospital_IND<br>PPSelfTransportToNonPCIHospital_IND)</td>
+<td>Null (Y/N only)<br>Null (Y/N only)</td>
+<td>'Y' or<br>'Y'</td>
+<td>[Site Name for PP_NonPCISiteNumber]</td>
+</tr>
+</tbody>
+</table>
+<details class="danger" open="open"><summary>Discuss</summary><ul>
+<li>From business perspecitve, row 3 means if Lytic Grouping calcuation result is 'Missing Location", then Lytic Site Calcuation is empty? Otherwise, how about "Medical Facility Outside of Country", "Medical Facility Outside of Ontario"? Row 2's logic couldn't never meet, since when Lytic Grouping result is 'Data Quality", it already exclude Null site.</li>
+</ul>
+</details>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        <!--
+  Copyright (c) 2016-2018 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+
+
+<!-- Application footer -->
+<footer class="md-footer">
+
+  <!-- Link to previous and/or next page -->
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+
+        <!-- Link to previous page -->
+        
+          <a href="../cardiac-specification/"
+              title="Cardiac Scorecard"
+              class="md-flex md-footer-nav__link md-footer-nav__link--prev"
+              rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back
+                    md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch
+                  md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Cardiac Scorecard
+              </span>
+            </div>
+          </a>
+        
+
+        <!-- Link to next page -->
+        
+          <a href="../QPMM-ETL/"
+              title="ETL Process"
+              class="md-flex md-footer-nav__link md-footer-nav__link--next"
+              rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch
+                  md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                ETL Process
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward
+                    md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+
+  <!-- Further information -->
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+
+      <!-- Copyright and theme information -->
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2018 CorHealth Ontario
+          </div>
+        
+      </div>
+
+      <!-- Social links -->
+      
+        
+  <div class="md-footer-social">
+    <link rel="stylesheet" href="../../../assets/fonts/font-awesome.css">
+    
+      <a href="https://ccndevgithub.ccn.on.ca" class="md-footer-social__link fa fa-github"></a>
+    
+      <a href="https://twitter.com/corhealthON" class="md-footer-social__link fa fa-twitter"></a>
+    
+  </div>
+
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../../assets/javascripts/application.5e60981f.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../../.."}})</script>
+      
+        <script src="../../../js/extra.js"></script>
+      
+    
+    
+      
+    
+  </body>
+</html>
