@@ -1,6 +1,6 @@
 **Step 1: Documents Required for Listing**
 ---
-==Once on MLS, Submit to office within 24 Hour. Otherwise, the listing will be terminated by office!!!==
+>Once on MLS, Submit to office within 24 Hour. Otherwise, the listing will be terminated by office
  - ID's for each Seller (Optional)
  - Listings Agreement - Authority to Offer for Sale - Form 200
   - Working With Realtor - 1 Page Faxable MLS
