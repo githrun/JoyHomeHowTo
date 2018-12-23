@@ -1,6 +1,7 @@
 **Step 1: Documents Required for Listing**
 ---
 >Once on MLS, Submit to office within 24 Hour. Otherwise, the listing will be terminated by office
+
  - ID's for each Seller (Optional)
  - Listings Agreement - Authority to Offer for Sale - Form 200
   - Working With Realtor - 1 Page Faxable MLS
@@ -11,6 +12,7 @@
    - Showing Instructions, with all contact information and Lock Box details
    - Registrant's Disclosure of Interest Disposition of Property - Form 161 (if applicable)
    - Bay Street Schedule B
+
 **Step 2: Once Sold or Sold Conditional - Submit to office (within 24 Hour)**
 ---
 - Offer Summary - Form 801 (Please keep Form 801 for all the offers received)
@@ -24,6 +26,7 @@
 - Deposit Cheque copy and Receipt
 - Mutual Release - Form 122 (If Deal Fell Through)
 - Registrant's Disclosure of Interest Disposition of Property - Form 161 (if applicable)
+
 **Step 3: Deal is Firm - Submit to office (within 24 Hour)**
 ---
 - Seller Lawyer Contact info: Name, Tel, Fax, email
