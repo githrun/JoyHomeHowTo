@@ -1,15 +1,15 @@
 # Project information
-site_name: DAR Project
-site_description: Data Acquisition Reporting
+site_name: JoyHome HowTo
+site_description: Wonderings about your dream home and investment
 repo_name: GitHub  #valid value 'GitHub', 'BitBucket', 'GitLab'
 #repo_name: 'CorHealth-Report Docs'
-repo_url: 'https://ccndevgithub.ccn.on.ca/CorHealth/report-wiki-menu-level/'
+repo_url: 'https://github.com/ericcma/JoyHomeHowTo/'
 site_url: http://localhost:8000/
-site_author: Domina Tang
+site_author: Eric Ma
 #extra:
 #  repo_icon: github
 #Copyright
-copyright: 'Copyright &copy; 2018 CorHealth Ontario'
+copyright: 'Copyright &copy; 2018 JoyHome'
 
 #Theme
 #'material','windmill' ,cinder,mkdocs,readthedocs, rtd-dropdown
@@ -72,9 +72,9 @@ extra_javascript:
 extra:
   social:
     - type: 'github'
-      link: 'https://ccndevgithub.ccn.on.ca'
+      link: 'https://ericcma.github.io/'
     - type: 'twitter'
-      link: 'https://twitter.com/corhealthON'
+      link: 'https://ericcma.github.io/'
 
 edit_uri: 'tree/master/project-documents/docs/'
 #Navigations      
@@ -83,7 +83,17 @@ nav:
     - 'Setup Environment':
         - 'Git Guide': 'setup-env/git-guide.md'
         - 'MkDocs Guide': 'setup-env/mkdocs-guide.md'
-    - Report Documents:
+    - Trainning:
+        - Transaction Management:
+            - Listing:
+                - Resale: report-documents/transaction-management/transaction_listing_resale.md
+                - Lease: report-documents/transaction-management/transaction_listing_lease.md
+                - Assignment: report-documents/transaction-management/transaction_listing_assignment.md
+            - Co-Operate:
+                - Resale: report-documents/transaction-management/transaction_coop_resale.md
+                - Lease: report-documents/transaction-management/transaction_coop_lease.md
+                - Assignment: report-documents/transaction-management/transaction_coop_assignment.md
+            - 'New Construction': 'report-documents/transaction-management/transaction_new_construction.md'
         - QPMM Report: 
             - BI Requirements: 
                 - Executive Summary: report-documents/QPMM-report/executive-summary.md
@@ -96,11 +106,3 @@ nav:
                     - STEMI Scorecard: report-documents/QPMM-report/STEMI-specification.md
             - ETL Process: report-documents/QPMM-report/QPMM-ETL.md
             - SOP Execution: report-documents/QPMM-report/QPMM-SOP.md
-        - STEMI LHIN Report:
-            - BI Requirements: 
-                - Business Requirements: 
-                    - Cycle and Data Source: report-documents/STEM-LHIN-report/STEMI-data-source.md
-                    - Metrics and KPI: report-documents/STEM-LHIN-report/STEMI-LHIN-kpi-specification.md
-                - Technical Requirements: report-documents/STEM-LHIN-report/STEMI-LHIN-tech-specification.md
-            - ETL Process: report-documents/STEM-LHIN-report/STEMI-ETL.md
-            - SOP Execution: report-documents/STEM-LHIN-report/STEMI-SOP.md
