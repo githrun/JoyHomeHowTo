@@ -16,6 +16,41 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
+     <loc>http://localhost:8000/report-documents/transaction-management/transaction_listing_resale/</loc>
+     <lastmod>2018-12-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>http://localhost:8000/report-documents/transaction-management/transaction_listing_lease/</loc>
+     <lastmod>2018-12-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>http://localhost:8000/report-documents/transaction-management/transaction_listing_assignment/</loc>
+     <lastmod>2018-12-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>http://localhost:8000/report-documents/transaction-management/transaction_coop_resale/</loc>
+     <lastmod>2018-12-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>http://localhost:8000/report-documents/transaction-management/transaction_coop_lease/</loc>
+     <lastmod>2018-12-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>http://localhost:8000/report-documents/transaction-management/transaction_coop_assignment/</loc>
+     <lastmod>2018-12-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>http://localhost:8000/report-documents/transaction-management/transaction_new_construction/</loc>
+     <lastmod>2018-12-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
      <loc>http://localhost:8000/report-documents/QPMM-report/executive-summary/</loc>
      <lastmod>2018-12-23</lastmod>
      <changefreq>daily</changefreq>
@@ -52,31 +87,6 @@
     </url>
     <url>
      <loc>http://localhost:8000/report-documents/QPMM-report/QPMM-SOP/</loc>
-     <lastmod>2018-12-23</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>http://localhost:8000/report-documents/STEM-LHIN-report/STEMI-data-source/</loc>
-     <lastmod>2018-12-23</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>http://localhost:8000/report-documents/STEM-LHIN-report/STEMI-LHIN-kpi-specification/</loc>
-     <lastmod>2018-12-23</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>http://localhost:8000/report-documents/STEM-LHIN-report/STEMI-LHIN-tech-specification/</loc>
-     <lastmod>2018-12-23</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>http://localhost:8000/report-documents/STEM-LHIN-report/STEMI-ETL/</loc>
-     <lastmod>2018-12-23</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>http://localhost:8000/report-documents/STEM-LHIN-report/STEMI-SOP/</loc>
      <lastmod>2018-12-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
