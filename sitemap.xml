@@ -51,6 +51,11 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
+     <loc>http://localhost:8000/report-documents/step-by-step-vedios/bsg-realestate-step-by-step/</loc>
+     <lastmod>2018-12-24</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
      <loc>http://localhost:8000/report-documents/QPMM-report/executive-summary/</loc>
      <lastmod>2018-12-24</lastmod>
      <changefreq>daily</changefreq>
