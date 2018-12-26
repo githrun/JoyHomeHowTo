@@ -2,97 +2,97 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
      <loc>http://localhost:8000/</loc>
-     <lastmod>2018-12-24</lastmod>
+     <lastmod>2018-12-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>http://localhost:8000/setup-env/git-guide/</loc>
-     <lastmod>2018-12-24</lastmod>
+     <lastmod>2018-12-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>http://localhost:8000/setup-env/mkdocs-guide/</loc>
-     <lastmod>2018-12-24</lastmod>
+     <lastmod>2018-12-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://localhost:8000/report-documents/transaction-management/transaction_listing_resale/</loc>
-     <lastmod>2018-12-24</lastmod>
+     <loc>http://localhost:8000/report-documents/buyer/principle-buy-primary-home/</loc>
+     <lastmod>2018-12-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://localhost:8000/report-documents/transaction-management/transaction_listing_lease/</loc>
-     <lastmod>2018-12-24</lastmod>
+     <loc>http://localhost:8000/report-documents/transaction-management/01_commission_rebate/</loc>
+     <lastmod>2018-12-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://localhost:8000/report-documents/transaction-management/transaction_listing_assignment/</loc>
-     <lastmod>2018-12-24</lastmod>
+     <loc>http://localhost:8000/report-documents/transaction-management/02_disclosure_of_interest/</loc>
+     <lastmod>2018-12-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://localhost:8000/report-documents/transaction-management/transaction_coop_resale/</loc>
-     <lastmod>2018-12-24</lastmod>
+     <loc>http://localhost:8000/report-documents/transaction-management/03_offer_examples/</loc>
+     <lastmod>2018-12-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://localhost:8000/report-documents/transaction-management/transaction_coop_lease/</loc>
-     <lastmod>2018-12-24</lastmod>
+     <loc>http://localhost:8000/report-documents/transaction-management/04_webform_emplate/</loc>
+     <lastmod>2018-12-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://localhost:8000/report-documents/transaction-management/transaction_coop_assignment/</loc>
-     <lastmod>2018-12-24</lastmod>
+     <loc>http://localhost:8000/report-documents/transaction-management/05_document_needs_for_transactions/transaction_listing_resale/</loc>
+     <lastmod>2018-12-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://localhost:8000/report-documents/transaction-management/transaction_new_construction/</loc>
-     <lastmod>2018-12-24</lastmod>
+     <loc>http://localhost:8000/report-documents/transaction-management/05_document_needs_for_transactions/transaction_listing_lease/</loc>
+     <lastmod>2018-12-26</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>http://localhost:8000/report-documents/transaction-management/05_document_needs_for_transactions/transaction_listing_assignment/</loc>
+     <lastmod>2018-12-26</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>http://localhost:8000/report-documents/transaction-management/05_document_needs_for_transactions/transaction_coop_resale/</loc>
+     <lastmod>2018-12-26</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>http://localhost:8000/report-documents/transaction-management/05_document_needs_for_transactions/transaction_coop_lease/</loc>
+     <lastmod>2018-12-26</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>http://localhost:8000/report-documents/transaction-management/05_document_needs_for_transactions/transaction_coop_assignment/</loc>
+     <lastmod>2018-12-26</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>http://localhost:8000/report-documents/transaction-management/05_document_needs_for_transactions/transaction_new_construction/</loc>
+     <lastmod>2018-12-26</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>http://localhost:8000/report-documents/transaction-management/06_scheduleB/</loc>
+     <lastmod>2018-12-26</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>http://localhost:8000/report-documents/transaction-management/07_transaction_summary/</loc>
+     <lastmod>2018-12-26</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>http://localhost:8000/report-documents/transaction-management/08_fintrac_forms/</loc>
+     <lastmod>2018-12-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>http://localhost:8000/report-documents/step-by-step-vedios/bsg-realestate-step-by-step/</loc>
-     <lastmod>2018-12-24</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>http://localhost:8000/report-documents/QPMM-report/executive-summary/</loc>
-     <lastmod>2018-12-24</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>http://localhost:8000/report-documents/QPMM-report/data-source/</loc>
-     <lastmod>2018-12-24</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>http://localhost:8000/report-documents/QPMM-report/data-transformation/</loc>
-     <lastmod>2018-12-24</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>http://localhost:8000/report-documents/QPMM-report/kpi-specification/</loc>
-     <lastmod>2018-12-24</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>http://localhost:8000/report-documents/QPMM-report/cardiac-specification/</loc>
-     <lastmod>2018-12-24</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>http://localhost:8000/report-documents/QPMM-report/STEMI-specification/</loc>
-     <lastmod>2018-12-24</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>http://localhost:8000/report-documents/QPMM-report/QPMM-ETL/</loc>
-     <lastmod>2018-12-24</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>http://localhost:8000/report-documents/QPMM-report/QPMM-SOP/</loc>
-     <lastmod>2018-12-24</lastmod>
+     <lastmod>2018-12-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
