@@ -84,10 +84,10 @@ nav:
         - 'Git Guide': 'setup-env/git-guide.md'
         - 'MkDocs Guide': 'setup-env/mkdocs-guide.md'
     - Buyer:
-        - Principles of buying a primary residential house: 'report-documents/buyer/principle-buy-primary-home.md'
+        #- Principles of buying a primary residential house: report-documents/buyer/principle-buy-primary-home.md
     - Agent:
         - Transaction Management:
-            - Commission Rebate: 'report-documents/transaction-management/01_commission_rebate.md'
+            - Commission Rebate: report-documents/transaction-management/01_commission_rebate.md
             - Disclosure of Interests: report-documents/transaction-management/02_disclosure_of_interest.md
             - Offer Examples: report-documents/transaction-management/03_offer_examples.md
             - Webform Templates: report-documents/transaction-management/04_webform_emplate.md
@@ -105,3 +105,18 @@ nav:
             - Transaction Summary: report-documents/transaction-management/07_transaction_summary.md
             - Fintrac Forms: report-documents/transaction-management/08_fintrac_forms.md
         - 'Step-By-Step Training Vedios': 'report-documents/step-by-step-vedios/bsg-realestate-step-by-step.md'
+        - Topics:
+
+        - Data Analysis:
+        - Check List:
+            - PDI:
+            - Transaction Forms:
+        - New Projects:
+            - Orlando:
+                - Introduction:
+                - Windsor:
+                    - Promotion:
+                    - Floor plan:
+            - Montreal:
+            - Yonge 4800:
+            - YSL:

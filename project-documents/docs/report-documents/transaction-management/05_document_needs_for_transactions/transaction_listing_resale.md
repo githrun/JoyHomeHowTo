@@ -6,8 +6,8 @@
  - Listings Agreement - Authority to Offer for Sale - Form 200
   - Working With Realtor - 1 Page Faxable MLS
   - Data Form (Unless Exclusive Listing)
-	 Condominium Sale - Form 291
-	 Freehold - Sale - Form 290
+	 - Condominium Sale - Form 291
+	 - Freehold - Sale - Form 290
    - FINTRAC Individual Identification Information Record - Form OREA 630
    - Showing Instructions, with all contact information and Lock Box details
    - Registrant's Disclosure of Interest Disposition of Property - Form 161 (if applicable)
@@ -17,8 +17,8 @@
 ---
 - Offer Summary - Form 801 (Please keep Form 801 for all the offers received)
 - Agreement of Purchase and Sale - Form 100
-	 Condominium Sale - Form 101
-	 Freehold Sale- Form 100
+	 - Condominium Sale - Form 101
+	 - Freehold Sale- Form 100
  - Confirmation of Co-operation - Form 320
 - MLS Listing Broker Full (Unless Exclusive Listing)
 - Waiver -Form 123 / Notice of Fulfillment - Form 124 (removing conditions)
