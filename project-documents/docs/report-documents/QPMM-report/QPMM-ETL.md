@@ -43,8 +43,8 @@
 5. Manually Delete Following 6 Hospital Data on "STEMI Raw Data" tab Columns G ("Planned Service Location")if any data exists for hospitals without STEMI practice
 
 	*	Michael Garron Hospital
-	*	London Health Sciences Centre – Victoria
-    *	University Health Network – Toronto Western
+	*	London Health Sciences Centre - Victoria
+    *	University Health Network - Toronto Western
 	*	Niagara Health System
     *	Sault Area Hospital
 	*	Royal Victoria Regional Health Centre

@@ -17,9 +17,9 @@
 |Process End|Reports are generated. |
 |Frequency |Quarterly.|
 |Performance Management| 	Reports creation 3h.|
-|SOP/Process Owner/Approver|	Reports creation – Specialist, Application Service|
+|SOP/Process Owner/Approver|	Reports creation - Specialist, Application Service|
 |Tools / Templates| Crystal Reports <br> SVN <br> Adobe Acrobat <br> SQL Management Studio|
-|Definitions |Quality Performance Measurement & Monitoring (QPMM) reports.<br>Excel cut – process of taking data from CRS Universe and putting that data In our database<br>SVN – Subversion application for code holding|
+|Definitions |Quality Performance Measurement & Monitoring (QPMM) reports.<br>Excel cut - process of taking data from CRS Universe and putting that data In our database<br>SVN - Subversion application for code holding|
 
 </div>
 
