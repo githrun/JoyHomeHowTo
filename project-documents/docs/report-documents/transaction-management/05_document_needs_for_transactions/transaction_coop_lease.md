@@ -1,5 +1,5 @@
-# Co-op (Rental Deal)
-## Step 1: Documents Required
+# Co-op (Rental Deal)#
+## Step 1: Documents Required##
 1. Client information related:
    - IDs for each Buyer (Optional)
    - Buyer Representation Agreement - Authority for Purchase or Lease - Form 300
@@ -21,7 +21,7 @@
 - Schedule B from Listing Brokerage
 - MLS Listing (Unless Exclusive Listing
 
-## Step 3: Deal Firm- Send to Office (within 24 Hours)
+## Step 3: Deal Firm- Send to Office (within 24 Hours)##
 - IDs for each Buyer (Optional)
 - Buyer Representation Agreement - Authority for Purchase or Lease -Form 300
 - Working With Realtor - 1 Page Faxable
