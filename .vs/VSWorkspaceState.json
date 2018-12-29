@@ -3,12 +3,9 @@
     "",
     "\\project-documents",
     "\\project-documents\\docs",
-    "\\project-documents\\docs\\corhealth-apps\\EQI",
     "\\project-documents\\docs\\report-documents",
-    "\\project-documents\\docs\\report-documents\\transaction-management",
-    "\\project-documents\\docs\\report-documents\\transaction-management\\05_document_needs_for_transactions",
-    "\\project-documents\\theme\\partials"
+    "\\project-documents\\docs\\report-documents\\transaction-management\\05_document_needs_for_transactions"
   ],
-  "SelectedNode": "\\project-documents\\docs\\report-documents\\transaction-management\\05_document_needs_for_transactions\\transaction_listing_resale.md",
+  "SelectedNode": "\\project-documents\\docs\\report-documents\\seller",
   "PreviewInSolutionExplorer": false
 }

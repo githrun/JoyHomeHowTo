@@ -84,24 +84,31 @@ nav:
         - 'Git Guide': 'setup-env/git-guide.md'
         - 'MkDocs Guide': 'setup-env/mkdocs-guide.md'
     - Buyer:
-        - Principles of buying a primary residential house: 'report-documents/buyer/principle-buy-primary-home.md'
+        - Principles of buying a primary residential house: 'realestate/buyer/principle-buy-primary-home.md'
+    - Seller:
+        - Principles of sellinging a primary residential house: 'realestate/seller/principle-sell-primary-home.md'
+    - Landlord:
+        - Forms: 'realestate/landlord/01_forms.md'
+    - Renter:
+        - Forms: 'realestate/renter/01_forms.md'
     - Agent:
         - Transaction Management:
-            - Commission Rebate: 'report-documents/transaction-management/01_commission_rebate.md'
-            - Disclosure of Interests: report-documents/transaction-management/02_disclosure_of_interest.md
-            - Offer Examples: report-documents/transaction-management/03_offer_examples.md
-            - Webform Templates: report-documents/transaction-management/04_webform_emplate.md
+            - Commission Rebate: 'realestate/transaction-management/01_commission_rebate.md'
+            - Disclosure of Interests: realestate/transaction-management/02_disclosure_of_interest.md
+            - Offer Examples: realestate/transaction-management/03_offer_examples.md
+            - Webform Templates: realestate/transaction-management/04_webform_emplate.md
             - Document Needs for Transactions:
                 - Listing:
-                    - Resale: report-documents/transaction-management/05_document_needs_for_transactions/transaction_listing_resale.md
-                    - Lease: report-documents/transaction-management/05_document_needs_for_transactions/transaction_listing_lease.md
-                    - Assignment: report-documents/transaction-management/05_document_needs_for_transactions/transaction_listing_assignment.md
+                    - Resale: realestate/transaction-management/05_document_needs_for_transactions/transaction_listing_resale.md
+                    - Lease: realestate/transaction-management/05_document_needs_for_transactions/transaction_listing_lease.md
+                    - Assignment: realestate/transaction-management/05_document_needs_for_transactions/transaction_listing_assignment.md
                 - Co-Operate:
-                    - Resale: report-documents/transaction-management/05_document_needs_for_transactions/transaction_coop_resale.md
-                    - Lease: report-documents/transaction-management/05_document_needs_for_transactions/transaction_coop_lease.md
-                    - Assignment: report-documents/transaction-management/05_document_needs_for_transactions/transaction_coop_assignment.md
-                - 'New Construction': 'report-documents/transaction-management/05_document_needs_for_transactions/transaction_new_construction.md'
-            - Schefule B: report-documents/transaction-management/06_scheduleB.md
-            - Transaction Summary: report-documents/transaction-management/07_transaction_summary.md
-            - Fintrac Forms: report-documents/transaction-management/08_fintrac_forms.md
-        - 'Step-By-Step Training Vedios': 'report-documents/step-by-step-vedios/bsg-realestate-step-by-step.md'
+                    - Resale: realestate/transaction-management/05_document_needs_for_transactions/transaction_coop_resale.md
+                    - Lease: realestate/transaction-management/05_document_needs_for_transactions/transaction_coop_lease.md
+                    - Assignment: realestate/transaction-management/05_document_needs_for_transactions/transaction_coop_assignment.md
+                - 'New Construction': 'realestate/transaction-management/05_document_needs_for_transactions/transaction_new_construction.md'
+            - Schefule B: realestate/transaction-management/06_scheduleB.md
+            - Transaction Summary: realestate/transaction-management/07_transaction_summary.md
+            - Fintrac Forms: realestate/transaction-management/08_fintrac_forms.md
+        - 'Training': 
+            - Step-By-Step Training Vedios: 'realestate/training/bsg-realestate-step-by-step.md'
