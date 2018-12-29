@@ -16,87 +16,97 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://localhost:8000/report-documents/buyer/principle-buy-primary-home/</loc>
+     <loc>http://localhost:8000/realestate/buyer/principle-buy-primary-home/</loc>
      <lastmod>2018-12-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://localhost:8000/report-documents/seller/principle-sell-primary-home/</loc>
+     <loc>http://localhost:8000/realestate/seller/principle-sell-primary-home/</loc>
      <lastmod>2018-12-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://localhost:8000/report-documents/transaction-management/01_commission_rebate/</loc>
+     <loc>http://localhost:8000/realestate/landlord/01_forms/</loc>
      <lastmod>2018-12-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://localhost:8000/report-documents/transaction-management/02_disclosure_of_interest/</loc>
+     <loc>http://localhost:8000/realestate/renter/01_forms/</loc>
      <lastmod>2018-12-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://localhost:8000/report-documents/transaction-management/03_offer_examples/</loc>
+     <loc>http://localhost:8000/realestate/transaction-management/01_commission_rebate/</loc>
      <lastmod>2018-12-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://localhost:8000/report-documents/transaction-management/04_webform_emplate/</loc>
+     <loc>http://localhost:8000/realestate/transaction-management/02_disclosure_of_interest/</loc>
      <lastmod>2018-12-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://localhost:8000/report-documents/transaction-management/05_document_needs_for_transactions/transaction_listing_resale/</loc>
+     <loc>http://localhost:8000/realestate/transaction-management/03_offer_examples/</loc>
      <lastmod>2018-12-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://localhost:8000/report-documents/transaction-management/05_document_needs_for_transactions/transaction_listing_lease/</loc>
+     <loc>http://localhost:8000/realestate/transaction-management/04_webform_emplate/</loc>
      <lastmod>2018-12-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://localhost:8000/report-documents/transaction-management/05_document_needs_for_transactions/transaction_listing_assignment/</loc>
+     <loc>http://localhost:8000/realestate/transaction-management/05_document_needs_for_transactions/transaction_listing_resale/</loc>
      <lastmod>2018-12-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://localhost:8000/report-documents/transaction-management/05_document_needs_for_transactions/transaction_coop_resale/</loc>
+     <loc>http://localhost:8000/realestate/transaction-management/05_document_needs_for_transactions/transaction_listing_lease/</loc>
      <lastmod>2018-12-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://localhost:8000/report-documents/transaction-management/05_document_needs_for_transactions/transaction_coop_lease/</loc>
+     <loc>http://localhost:8000/realestate/transaction-management/05_document_needs_for_transactions/transaction_listing_assignment/</loc>
      <lastmod>2018-12-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://localhost:8000/report-documents/transaction-management/05_document_needs_for_transactions/transaction_coop_assignment/</loc>
+     <loc>http://localhost:8000/realestate/transaction-management/05_document_needs_for_transactions/transaction_coop_resale/</loc>
      <lastmod>2018-12-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://localhost:8000/report-documents/transaction-management/05_document_needs_for_transactions/transaction_new_construction/</loc>
+     <loc>http://localhost:8000/realestate/transaction-management/05_document_needs_for_transactions/transaction_coop_lease/</loc>
      <lastmod>2018-12-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://localhost:8000/report-documents/transaction-management/06_scheduleB/</loc>
+     <loc>http://localhost:8000/realestate/transaction-management/05_document_needs_for_transactions/transaction_coop_assignment/</loc>
      <lastmod>2018-12-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://localhost:8000/report-documents/transaction-management/07_transaction_summary/</loc>
+     <loc>http://localhost:8000/realestate/transaction-management/05_document_needs_for_transactions/transaction_new_construction/</loc>
      <lastmod>2018-12-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://localhost:8000/report-documents/transaction-management/08_fintrac_forms/</loc>
+     <loc>http://localhost:8000/realestate/transaction-management/06_scheduleB/</loc>
      <lastmod>2018-12-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://localhost:8000/report-documents/step-by-step-vedios/bsg-realestate-step-by-step/</loc>
+     <loc>http://localhost:8000/realestate/transaction-management/07_transaction_summary/</loc>
+     <lastmod>2018-12-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>http://localhost:8000/realestate/transaction-management/08_fintrac_forms/</loc>
+     <lastmod>2018-12-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>http://localhost:8000/realestate/training/bsg-realestate-step-by-step/</loc>
      <lastmod>2018-12-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
