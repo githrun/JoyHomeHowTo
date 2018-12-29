@@ -1,42 +1,54 @@
-# Co-op (Assignment Deal)
-## Step 1: Documents Required##
 
+# Co-op Assignment Deal
+## Step 1: Documents Required
 a) Client information related:
+
 - ID's for each Buyer (Optional)
 - Buyer Representation Agreement - Authority for Purchase or Lease -Form 300
 - Working With Realtor - 1 Page Faxable
 - FINTRAC Individual Identification Information Record - Form OREA 630
 
-b) Offer information related:
+b)  Offer information related:
+
 - Offer Summary - Form 801
 - Confirmation of Co-operation - Form 320
 - Assignment of Agreement of Purchase and Sale:
-   - Condominium Sale - Form 150
-   - Freehold Sale- Form 145
+
+    >- Condominium Sal - Form 150
+    >- Freehold Sale- Form 145
+
 - Registrant's Disclosure of Interest Acquisition of Property - Form 160 (if applicable)
 - MLS Listing Broker Full (Unless Exclusive Listing)
 - Schedule B from Listing Brokerage
 
-## Step 2: Send to Listing agent with offer (As above "b. Offer information related")##
+## Step 2: Send to Listing agent with offer (As above "b) Offer information related")
 - Offer Summary - Form 801
 - Confirmation of Co-operation - Form 320
 - Assignment of Agreement of Purchase and Sale:
-   - Condominium Sale - Form 150
-   - Freehold Sale- Form 145
+
+    >- Condominium Sale - Form 150
+    >- Freehold Sale- Form 145
+
 - Registrant's Disclosure of Interest Acquisition of Property - Form 160 (if applicable)
 - Schedule B from Listing Brokerage
 
-## Step 3: Sold Conditional- Submit to Office (within 24 Hours)##
-a) Client information related:
+## Step 3: Sold Conditional- Submit to Office (within 24 Hours)
+
+a)  Client information related:
+
 - ID's for each Buyer (Optional)
 - Buyer Representation Agreement - Authority for Purchase or Lease -Form 300
 - Working With Realtor - 1 Page Faxable
 - FINTRAC Individual Identification Information Record - Form OREA 630
+
 b) Offer information related:
+
 - Confirmation of Co-operation - Form 320
 - Assignment of Agreement of Purchase and Sale:
-   - Condominium Sale - Form 150
-   - Freehold Sale- Form 145
+
+    >- Condominium Sale - Form 150
+    >- Freehold Sale- Form 145
+
 - Registrant's Disclosure of Interest Acquisition of Property - Form 160 (if applicable)
 - Schedule B from Listing Brokerage
 - Copy of Deposit Receipt
@@ -44,7 +56,7 @@ b) Offer information related:
 - FINTRAC - Receipt of Funds Record - Form OREA 635
 - Mutual Release - Form 122 (If Deal Fell Through)
 
-## Step 4: Deal Firm- Submit to Office (within 24 Hours)##
+## Step 4: Deal Firm- Submit to Office (within 24 Hours)
 - Waiver -Form 123 / Notice of Fulfillment -Form 124 (removing conditions)(if
 applicable)
 - Amendment - Form 120 (removing conditions, or adding offer content change)(if

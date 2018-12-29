@@ -1,61 +1,64 @@
-**Step 1: Documents Required Co-op (Resale Deal)**
----
-1.  Client information related:
+# Co-op Reasle Deal
+## Step 1: Documents Required Co-op (Resale Deal)
 
-    -  IDs for each Buyer (Optional)
-    -  Buyer Representation Agreement - Authority for Purchase or Lease - Form 300
-    - Working With Realtor - 1 Page Faxable
-    - FINTRAC Individual Identification Information Record - Form OREA 630
+a)  Client information related:
 
-2. Offer information related:
+-  IDs for each Buyer (Optional)
+-  Buyer Representation Agreement - Authority for Purchase or Lease - Form 300
+- Working With Realtor - 1 Page Faxable
+- FINTRAC Individual Identification Information Record - Form OREA 630
 
-    - Offer Summary - Form 801
-    - Confirmation of Co-operation - Form 320
-    - Agreement of Purchase and Sale:
-       - Freehold Resale - Form 100
-       - Condominium Resale - Form 101
-    - Registrant's Disclosure of Interest Acquisition of Property - Form 160 (if applicable)
-    - MLS Listing Broker Full(Unless Exclusive Listing)
-    - Schedule B from Listing Brokerage
+b) Offer information related:
 
-**Step 2: Send to Listing agent with offer ( As above 2. "Offer information related")**
----
+- Offer Summary - Form 801
+- Confirmation of Co-operation - Form 320
+- Agreement of Purchase and Sale:
 
-   - Offer Summary - Form 801
-   - Confirmation of Co-operation - Form 320
-   - Agreement of Purchase and Sale:
-      - Freehold Resale - Form 100
-      - Condominium Resale - Form 101
-   - Registrant's Disclosure of Interest Acquisition of Property - Form 160 (if applicable)
-   - MLS Listing (Unless Exclusive Listing)
-   - Schedule B from Listing Brokerage
+    >- Freehold Resale - Form 100
+    >- Condominium Resale - Form 101
 
-**Step 3: Sold Conditional- Submit to Office (within 24 Hours)**
----
+- Registrant's Disclosure of Interest Acquisition of Property - Form 160 (if applicable)
+- MLS Listing Broker Full(Unless Exclusive Listing)
+- Schedule B from Listing Brokerage
 
-1. Client information related:
+## Step 2: Send to Listing agent with offer ( As above b) "Offer information related")
+- Offer Summary - Form 801
+- Confirmation of Co-operation - Form 320
+- Agreement of Purchase and Sale:
 
-    - ID's for each Buyer (Optional)
-    - Buyer Representation Agreement - Authority for Purchase or Lease - Form 300
-    - Working With Realtor - 1 Page Faxable
-    - FINTRAC Individual Identification Information Record - Form OREA 630
+     >- Freehold Resale - Form 100
+     >- Condominium Resale - Form 101
 
-2. Offer information related:
+- Registrant's Disclosure of Interest Acquisition of Property - Form 160 (if applicable)
+- MLS Listing (Unless Exclusive Listing)
+- Schedule B from Listing Brokerage
 
-    - Confirmation of Co-operation - Form 320
-    - Agreement of Purchase and Sale:
-       - Freehold Resale - Form 100
-       - Condominium Resale - Form 101
-    - Registrant's Disclosure of Interest Acquisition of Property - Form 160 (if applicable)
-    - MLS Listing Broker Full (Unless Exclusive Listing)
-    - Schedule B from Listing Brokerage
-    - Copy of Deposit Receipt
-    - Copy of Deposit Chq/Money Order
-    - FINTRAC - Receipt of Funds Record - Form OREA 635
-    - Mutual Release - Form 122 (If Deal Fell Through)
+## Step 3: Sold Conditional- Submit to Office (within 24 Hours)
+a) Client information related:
 
-**Step 4: Deal Firm - Submit to Office (within 24 Hours)**
----
+- ID's for each Buyer (Optional)
+- Buyer Representation Agreement - Authority for Purchase or Lease - Form 300
+- Working With Realtor - 1 Page Faxable
+- FINTRAC Individual Identification Information Record - Form OREA 630
+
+b) Offer information related:
+
+- Confirmation of Co-operation - Form 320
+- Agreement of Purchase and Sale:
+
+    >- Freehold Resale - Form 100
+    >- Condominium Resale - Form 101
+
+- Registrant's Disclosure of Interest Acquisition of Property - Form 160 (if applicable)
+- MLS Listing Broker Full (Unless Exclusive Listing)
+- Schedule B from Listing Brokerage
+- Copy of Deposit Receipt
+- Copy of Deposit Chq/Money Order
+- FINTRAC - Receipt of Funds Record - Form OREA 635
+- Mutual Release - Form 122 (If Deal Fell Through)
+
+## Step 4: Deal Firm - Submit to Office (within 24 Hours)
+
 - Waiver - Form 123 / Notice of Fulfillment - Form 124 (removing conditions)(if applicable)
 - Amendment - Form 120 (removing conditions, or adding offer content change)(if applicable)
 - Buyer Lawyer Lawyer Contact info: Name, Tel, Fax, Email

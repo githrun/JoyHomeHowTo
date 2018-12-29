@@ -1,4 +1,4 @@
-# New Construction Project
+# New Construction Deal
 ## Step1: Documents Required
 
 - ID's for each buyer
