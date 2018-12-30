@@ -112,3 +112,5 @@ nav:
             - Fintrac Forms: realestate/transaction-management/08_fintrac_forms.md
         - 'Training': 
             - Step-By-Step Training Vedios: 'realestate/training/bsg-realestate-step-by-step.md'
+        - 'Case Howto': 
+            - 'Apply deposit in previous offer to a new offer through mutual release': 'realestate/case-howto/case-howto-01.md'
