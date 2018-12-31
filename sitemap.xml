@@ -16,6 +16,11 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
+     <loc></loc>
+     
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
      <loc>http://localhost:8000/realestate/buyer/principle-buy-primary-home/</loc>
      <lastmod>2018-12-31</lastmod>
      <changefreq>daily</changefreq>
