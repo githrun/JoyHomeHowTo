@@ -3,11 +3,15 @@
     "",
     "\\docs",
     "\\docs\\realestate",
-    "\\docs\\realestate\\buyer",
-    "\\docs\\realestate\\landlord",
-    "\\docs\\realestate\\renter",
-    "\\docs\\realestate\\training"
+    "\\docs\\realestate\\buyer-seller",
+    "\\docs\\realestate\\buyer-seller\\buyer",
+    "\\site",
+    "\\site\\realestate",
+    "\\site\\realestate\\buyer-seller",
+    "\\site\\realestate\\buyer-seller\\buyer",
+    "\\site\\realestate\\buyer-seller\\buyer\\pinciple-house-orientation",
+    "\\site\\realestate\\buyer-seller\\buyer\\principle-buy-primary-home"
   ],
-  "SelectedNode": "\\docs\\realestate\\renter\\01_forms.md",
+  "SelectedNode": "\\site",
   "PreviewInSolutionExplorer": false
 }

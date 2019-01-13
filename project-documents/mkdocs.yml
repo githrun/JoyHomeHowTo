@@ -79,38 +79,41 @@ extra:
 edit_uri: 'tree/master/project-documents/docs/'
 #Navigations      
 nav:
-    - Introduction: index.md
-    - 'Setup Environment':
+    - 'Technic-Guide':
+        - 'Introduction': index.md
         - 'Git Guide': 'setup-env/git-guide.md'
         - 'MkDocs Guide': 'setup-env/mkdocs-guide.md'
-    - Buyer:
-        - Principles of buying a primary residential house: 'realestate/buyer/principle-buy-primary-home.md'
-    - Seller:
-        - Principles of sellinging a primary residential house: 'realestate/seller/principle-sell-primary-home.md'
-    - Landlord:
-        - Forms: 'realestate/landlord/01_forms.md'
-    - Renter:
-        - Forms: 'realestate/renter/01_forms.md'
+    - Buyer-Seller:
+        - General Info: 'realestate/buyer-seller/general/general.md'
+        - Buyer:
+            - Principles of buying a primary house: 'realestate/buyer-seller/buyer/principle-buy-primary-home.md'
+            - House Orientation: realestate/buyer-seller/buyer/pinciple-house-orientation.md
+        - Seller:
+            - Principles of sellinging a primary house: 'realestate/buyer-seller/seller/principle-sell-primary-home.md'
+    - Landlord-Renter:
+        - General Info: 'realestate/landlord-renter/general/01_general-info.md'
+        - Landlord: 'realestate/landlord-renter/landlord/01_forms.md'
+        - Renter: 'realestate/landlord-renter/renter/01_forms.md'
     - Agent:
         - Transaction Management:
-            - Commission Rebate: 'realestate/transaction-management/01_commission_rebate.md'
-            - Disclosure of Interests: realestate/transaction-management/02_disclosure_of_interest.md
-            - Offer Examples: realestate/transaction-management/03_offer_examples.md
-            - Webform Templates: realestate/transaction-management/04_webform_emplate.md
+            - Commission Rebate: 'realestate/agent/transaction-management/01_commission_rebate.md'
+            - Disclosure of Interests: realestate/agent/transaction-management/02_disclosure_of_interest.md
+            - Offer Examples: realestate/agent/transaction-management/03_offer_examples.md
+            - Webform Templates: realestate/agent/transaction-management/04_webform_emplate.md
             - Document Needs for Transactions:
                 - Listing:
-                    - Resale: realestate/transaction-management/05_document_needs_for_transactions/transaction_listing_resale.md
-                    - Lease: realestate/transaction-management/05_document_needs_for_transactions/transaction_listing_lease.md
-                    - Assignment: realestate/transaction-management/05_document_needs_for_transactions/transaction_listing_assignment.md
+                    - Resale: realestate/agent/transaction-management/05_document_needs_for_transactions/transaction_listing_resale.md
+                    - Lease: realestate/agent/transaction-management/05_document_needs_for_transactions/transaction_listing_lease.md
+                    - Assignment: realestate/agent/transaction-management/05_document_needs_for_transactions/transaction_listing_assignment.md
                 - Co-Operate:
-                    - Resale: realestate/transaction-management/05_document_needs_for_transactions/transaction_coop_resale.md
-                    - Lease: realestate/transaction-management/05_document_needs_for_transactions/transaction_coop_lease.md
-                    - Assignment: realestate/transaction-management/05_document_needs_for_transactions/transaction_coop_assignment.md
-                - 'New Construction': 'realestate/transaction-management/05_document_needs_for_transactions/transaction_new_construction.md'
-            - Schefule B: realestate/transaction-management/06_scheduleB.md
-            - Transaction Summary: realestate/transaction-management/07_transaction_summary.md
-            - Fintrac Forms: realestate/transaction-management/08_fintrac_forms.md
-        - 'Training': 
-            - Step-By-Step Training Vedios: 'realestate/training/bsg-realestate-step-by-step.md'
-        - 'Case Howto': 
-            - 'Apply deposit in previous offer to a new offer through mutual release': 'realestate/case-howto/case-howto-01.md'
+                    - Resale: realestate/agent/transaction-management/05_document_needs_for_transactions/transaction_coop_resale.md
+                    - Lease: realestate/agent/transaction-management/05_document_needs_for_transactions/transaction_coop_lease.md
+                    - Assignment: realestate/agent/transaction-management/05_document_needs_for_transactions/transaction_coop_assignment.md
+                - 'New Construction': 'realestate/agent/transaction-management/05_document_needs_for_transactions/transaction_new_construction.md'
+            - Schefule B: realestate/agent/transaction-management/06_scheduleB.md
+            - Transaction Summary: realestate/agent/transaction-management/07_transaction_summary.md
+            - Fintrac Forms: realestate/agent/transaction-management/08_fintrac_forms.md
+        - Training:
+            - Fill Web Forms Step-By-Step Vedios: 'realestate/agent/training/bsg-realestate-step-by-step.md'
+        - Case Resolution:
+            - Apply Deposit To New Agreement: 'realestate/agent/case-resolution/case-resolution-01.md'
