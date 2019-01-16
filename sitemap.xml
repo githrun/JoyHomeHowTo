@@ -26,6 +26,16 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
+     <loc>http://localhost:8000/realestate/buyer-seller/buyer/house-purchase-steps/</loc>
+     <lastmod>2019-01-15</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>http://localhost:8000/realestate/buyer-seller/buyer/mortgage-steps/</loc>
+     <lastmod>2019-01-15</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
      <loc>http://localhost:8000/realestate/buyer-seller/buyer/pinciple-house-orientation/</loc>
      <lastmod>2019-01-15</lastmod>
      <changefreq>daily</changefreq>
