@@ -1,4 +1,4 @@
-# Project information
+﻿# Project information
 site_name: JoyHome HowTo
 site_description: Wonderings about your dream home and investment
 repo_name: GitHub  #valid value 'GitHub', 'BitBucket', 'GitLab'
@@ -84,10 +84,11 @@ nav:
         - 'Git Guide': 'setup-env/git-guide.md'
         - 'MkDocs Guide': 'setup-env/mkdocs-guide.md'
     - Buyer-Seller:
-        - General Info: 'realestate/buyer-seller/general/general.md'
+        - General Info:
+            - 房屋常见问题: 'realestate/buyer-seller/general/02_residential_house_flaws.md'
         - Buyer:
-            - Principles of buying a primary house: 'realestate/buyer-seller/buyer/principle-buy-primary-home.md'
-            - House Orientation: realestate/buyer-seller/buyer/pinciple-house-orientation.md
+            - 购买居住房的基本原则: 'realestate/buyer-seller/buyer/principle-buy-primary-home.md'
+            - 如何选择房屋的朝向: realestate/buyer-seller/buyer/pinciple-house-orientation.md
         - Seller:
             - Principles of sellinging a primary house: 'realestate/buyer-seller/seller/principle-sell-primary-home.md'
     - Landlord-Renter:

@@ -3,9 +3,10 @@
     "",
     "\\project-documents",
     "\\project-documents\\docs",
-    "\\project-documents\\docs\\report-documents",
-    "\\project-documents\\docs\\report-documents\\transaction-management\\05_document_needs_for_transactions"
+    "\\project-documents\\docs\\realestate",
+    "\\project-documents\\docs\\realestate\\buyer-seller",
+    "\\project-documents\\docs\\realestate\\buyer-seller\\buyer"
   ],
-  "SelectedNode": "\\project-documents\\docs\\report-documents\\seller",
+  "SelectedNode": "\\project-documents\\docs\\realestate\\buyer-seller\\buyer\\principle-buy-primary-home.md",
   "PreviewInSolutionExplorer": false
 }
