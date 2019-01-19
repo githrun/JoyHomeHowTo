@@ -2,16 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\docs",
-    "\\docs\\realestate",
     "\\docs\\realestate\\buyer-seller",
     "\\docs\\realestate\\buyer-seller\\buyer",
-    "\\site",
-    "\\site\\realestate",
-    "\\site\\realestate\\buyer-seller",
-    "\\site\\realestate\\buyer-seller\\buyer",
-    "\\site\\realestate\\buyer-seller\\buyer\\pinciple-house-orientation",
-    "\\site\\realestate\\buyer-seller\\buyer\\principle-buy-primary-home"
+    "\\site"
   ],
-  "SelectedNode": "\\site",
+  "SelectedNode": "\\docs\\realestate",
   "PreviewInSolutionExplorer": false
 }
