@@ -150,4 +150,9 @@
      <lastmod>2019-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
+    <url>
+     <loc>http://localhost:8000/setup-env/markdownsyntax/</loc>
+     <lastmod>2019-06-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
 </urlset>
