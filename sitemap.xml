@@ -2,152 +2,152 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
      <loc>http://localhost:8000/</loc>
-     <lastmod>2019-02-26</lastmod>
+     <lastmod>2019-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://localhost:8000/setup-env/git-guide/</loc>
-     <lastmod>2019-02-26</lastmod>
+     <loc>http://localhost:8000/realestate/all-love/02_residential_house_flaws/</loc>
+     <lastmod>2019-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://localhost:8000/setup-env/mkdocs-guide/</loc>
-     <lastmod>2019-02-26</lastmod>
+     <loc>http://localhost:8000/realestate/buyer/principle-buy-primary-home/</loc>
+     <lastmod>2019-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://localhost:8000/realestate/buyer-seller/general/02_residential_house_flaws/</loc>
-     <lastmod>2019-02-26</lastmod>
+     <loc>http://localhost:8000/realestate/buyer/house-purchase-steps/</loc>
+     <lastmod>2019-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://localhost:8000/realestate/buyer-seller/buyer/principle-buy-primary-home/</loc>
-     <lastmod>2019-02-26</lastmod>
+     <loc>http://localhost:8000/realestate/buyer/new-construction/</loc>
+     <lastmod>2019-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://localhost:8000/realestate/buyer-seller/buyer/house-purchase-steps/</loc>
-     <lastmod>2019-02-26</lastmod>
+     <loc>http://localhost:8000/realestate/buyer/mortage-shopping-principle/</loc>
+     <lastmod>2019-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://localhost:8000/realestate/buyer-seller/buyer/new-construction/</loc>
-     <lastmod>2019-02-26</lastmod>
+     <loc>http://localhost:8000/realestate/buyer/mortgage-steps/</loc>
+     <lastmod>2019-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://localhost:8000/realestate/buyer-seller/buyer/mortage-shopping-principle/</loc>
-     <lastmod>2019-02-26</lastmod>
+     <loc>http://localhost:8000/realestate/buyer/pinciple-house-orientation/</loc>
+     <lastmod>2019-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://localhost:8000/realestate/buyer-seller/buyer/mortgage-steps/</loc>
-     <lastmod>2019-02-26</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>http://localhost:8000/realestate/buyer-seller/buyer/pinciple-house-orientation/</loc>
-     <lastmod>2019-02-26</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>http://localhost:8000/realestate/buyer-seller/seller/principle-sell-primary-home/</loc>
-     <lastmod>2019-02-26</lastmod>
+     <loc>http://localhost:8000/realestate/seller/principle-sell-primary-home/</loc>
+     <lastmod>2019-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>http://localhost:8000/realestate/landlord-renter/general/01_general-info/</loc>
-     <lastmod>2019-02-26</lastmod>
+     <lastmod>2019-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>http://localhost:8000/realestate/landlord-renter/landlord/01_forms/</loc>
-     <lastmod>2019-02-26</lastmod>
+     <lastmod>2019-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>http://localhost:8000/realestate/landlord-renter/renter/01_forms/</loc>
-     <lastmod>2019-02-26</lastmod>
+     <lastmod>2019-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>http://localhost:8000/realestate/agent/transaction-management/01_commission_rebate/</loc>
-     <lastmod>2019-02-26</lastmod>
+     <lastmod>2019-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>http://localhost:8000/realestate/agent/transaction-management/02_disclosure_of_interest/</loc>
-     <lastmod>2019-02-26</lastmod>
+     <lastmod>2019-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>http://localhost:8000/realestate/agent/transaction-management/03_offer_examples/</loc>
-     <lastmod>2019-02-26</lastmod>
+     <lastmod>2019-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>http://localhost:8000/realestate/agent/transaction-management/04_webform_emplate/</loc>
-     <lastmod>2019-02-26</lastmod>
+     <lastmod>2019-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>http://localhost:8000/realestate/agent/transaction-management/05_document_needs_for_transactions/transaction_listing_resale/</loc>
-     <lastmod>2019-02-26</lastmod>
+     <lastmod>2019-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>http://localhost:8000/realestate/agent/transaction-management/05_document_needs_for_transactions/transaction_listing_lease/</loc>
-     <lastmod>2019-02-26</lastmod>
+     <lastmod>2019-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>http://localhost:8000/realestate/agent/transaction-management/05_document_needs_for_transactions/transaction_listing_assignment/</loc>
-     <lastmod>2019-02-26</lastmod>
+     <lastmod>2019-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>http://localhost:8000/realestate/agent/transaction-management/05_document_needs_for_transactions/transaction_coop_resale/</loc>
-     <lastmod>2019-02-26</lastmod>
+     <lastmod>2019-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>http://localhost:8000/realestate/agent/transaction-management/05_document_needs_for_transactions/transaction_coop_lease/</loc>
-     <lastmod>2019-02-26</lastmod>
+     <lastmod>2019-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>http://localhost:8000/realestate/agent/transaction-management/05_document_needs_for_transactions/transaction_coop_assignment/</loc>
-     <lastmod>2019-02-26</lastmod>
+     <lastmod>2019-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>http://localhost:8000/realestate/agent/transaction-management/05_document_needs_for_transactions/transaction_new_construction/</loc>
-     <lastmod>2019-02-26</lastmod>
+     <lastmod>2019-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>http://localhost:8000/realestate/agent/transaction-management/06_scheduleB/</loc>
-     <lastmod>2019-02-26</lastmod>
+     <lastmod>2019-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>http://localhost:8000/realestate/agent/transaction-management/07_transaction_summary/</loc>
-     <lastmod>2019-02-26</lastmod>
+     <lastmod>2019-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>http://localhost:8000/realestate/agent/transaction-management/08_fintrac_forms/</loc>
-     <lastmod>2019-02-26</lastmod>
+     <lastmod>2019-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>http://localhost:8000/realestate/agent/training/bsg-realestate-step-by-step/</loc>
-     <lastmod>2019-02-26</lastmod>
+     <lastmod>2019-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>http://localhost:8000/realestate/agent/case-resolution/case-resolution-01/</loc>
-     <lastmod>2019-02-26</lastmod>
+     <lastmod>2019-06-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>http://localhost:8000/setup-env/git-guide/</loc>
+     <lastmod>2019-06-12</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>http://localhost:8000/setup-env/mkdocs-guide/</loc>
+     <lastmod>2019-06-12</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
