@@ -2,10 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\docs",
-    "\\docs\\realestate\\buyer-seller",
-    "\\docs\\realestate\\buyer-seller\\buyer",
-    "\\site"
+    "\\docs\\js",
+    "\\docs\\setup-env",
+    "\\docs\\tools",
+    "\\site\\js",
+    "\\theme\\partials"
   ],
-  "SelectedNode": "\\docs\\realestate",
+  "SelectedNode": "\\site",
   "PreviewInSolutionExplorer": false
 }

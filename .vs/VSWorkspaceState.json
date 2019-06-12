@@ -3,10 +3,8 @@
     "",
     "\\project-documents",
     "\\project-documents\\docs",
-    "\\project-documents\\docs\\realestate",
-    "\\project-documents\\docs\\realestate\\buyer-seller",
-    "\\project-documents\\docs\\realestate\\buyer-seller\\buyer"
+    "\\project-documents\\docs\\realestate"
   ],
-  "SelectedNode": "\\project-documents\\docs\\realestate\\buyer-seller\\buyer\\principle-buy-primary-home.md",
+  "SelectedNode": "\\project-documents\\docs\\index.md",
   "PreviewInSolutionExplorer": false
 }

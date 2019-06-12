@@ -9,7 +9,7 @@ site_author: Eric Ma
 #extra:
 #  repo_icon: github
 #Copyright
-copyright: 'Copyright &copy; 2018 JoyHome'
+copyright: 'Copyright &copy; 2019 JoyHome Maintained by Eric Ma'
 
 #Theme
 #'material','windmill' ,cinder,mkdocs,readthedocs, rtd-dropdown
@@ -79,22 +79,18 @@ extra:
 edit_uri: 'tree/master/project-documents/docs/'
 #Navigations      
 nav:
-    - 'Technic-Guide':
-        - 'Introduction': index.md
-        - 'Git Guide': 'setup-env/git-guide.md'
-        - 'MkDocs Guide': 'setup-env/mkdocs-guide.md'
-    - Buyer-Seller:
-        - General Info:
-            - 房屋常见问题: 'realestate/buyer-seller/general/02_residential_house_flaws.md'
-        - Buyer:
-            - 购买居住房的基本原则: 'realestate/buyer-seller/buyer/principle-buy-primary-home.md'
-            - 购买居住房的基本步骤: 'realestate/buyer-seller/buyer/house-purchase-steps.md'
-            - 楼花及购买步骤: 'realestate/buyer-seller/buyer/new-construction.md'
-            - 房屋贷款的基本考量: 'realestate/buyer-seller/buyer/mortage-shopping-principle.md'
-            - 房屋贷款基本步骤: 'realestate/buyer-seller/buyer/mortgage-steps.md'
-            - 如何选择房屋的朝向: 'realestate/buyer-seller/buyer/pinciple-house-orientation.md'
-        - Seller:
-            - Principles of sellinging a primary house: 'realestate/buyer-seller/seller/principle-sell-primary-home.md'
+    - General:
+        - Introduction: index.md
+        - 房屋常见问题: 'realestate/all-love/02_residential_house_flaws.md'
+    - Buyer:
+        - 购买居住房的基本原则: 'realestate/buyer/principle-buy-primary-home.md'
+        - 购买居住房的基本步骤: 'realestate/buyer/house-purchase-steps.md'
+        - 楼花及购买步骤: 'realestate/buyer/new-construction.md'
+        - 房屋贷款的基本考量: 'realestate/buyer/mortage-shopping-principle.md'
+        - 房屋贷款基本步骤: 'realestate/buyer/mortgage-steps.md'
+        - 如何选择房屋的朝向: 'realestate/buyer/pinciple-house-orientation.md'
+    - Seller:
+        - Principles of sellinging a primary house: 'realestate/seller/principle-sell-primary-home.md'
     - Landlord-Renter:
         - General Info: 'realestate/landlord-renter/general/01_general-info.md'
         - Landlord: 'realestate/landlord-renter/landlord/01_forms.md'
@@ -122,3 +118,7 @@ nav:
             - Fill Web Forms Step-By-Step Vedios: 'realestate/agent/training/bsg-realestate-step-by-step.md'
         - Case Resolution:
             - Apply Deposit To New Agreement: 'realestate/agent/case-resolution/case-resolution-01.md'
+    - 'TechHelp':
+        - 'Git Guide': 'setup-env/git-guide.md'
+        - 'MkDocs Guide': 'setup-env/mkdocs-guide.md'
+        - 'Markdown Language Syntax': 'setup-env/markdownsyntax.md'
