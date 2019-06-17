@@ -5,6 +5,12 @@ h1, h2 {
 h5 {
 	color: purple!important;
 }
+
+img {
+    border-radius: 50px;
+
+}
+
 /*This is the changes for left and right margin of layout*/
 .md-grid {
 
