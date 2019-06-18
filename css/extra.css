@@ -6,8 +6,8 @@ h5 {
 	color: purple!important;
 }
 
-img {
-    border-radius: 30px;
+a > img {
+    border-radius: 20px;
 
 }
 
