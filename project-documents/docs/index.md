@@ -5,7 +5,7 @@
 - wechat: jysytaba
 - wechat barcode: 
 
-     ![Wechat Barcode](../../assets/images/wechatbarcode.jpg)      
+     ![Wechat Barcode](./assets/images/wechatbarcode.jpg)      
 
 
 
@@ -25,7 +25,7 @@
 
 - Locate Properties
 
-    [realyor.ca](http://realtor.ca) 
+    [realtor.ca](http://realtor.ca) 
 
     [zolo.ca](http://zolo.ca) 
 

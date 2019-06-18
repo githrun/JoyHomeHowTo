@@ -71,7 +71,7 @@ _This is italic_
 ```language
 ![Link to JoyHome Logo Image](assets/images/logo.jpg)
 ```
-![JoyHome Logo](assets/images/logo.jpg)
+![JoyHome Logo](../assets/images/logo.jpg)
 
 
 ## Unordered List

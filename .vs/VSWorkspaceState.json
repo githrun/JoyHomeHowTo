@@ -3,7 +3,10 @@
     "",
     "\\project-documents",
     "\\project-documents\\docs",
-    "\\project-documents\\docs\\realestate"
+    "\\project-documents\\docs\\realestate",
+    "\\project-documents\\docs\\realestate\\all-love",
+    "\\project-documents\\docs\\realestate\\buyer",
+    "\\project-documents\\docs\\tools"
   ],
   "SelectedNode": "\\project-documents\\docs\\index.md",
   "PreviewInSolutionExplorer": false

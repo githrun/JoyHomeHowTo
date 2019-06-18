@@ -2,12 +2,14 @@
   "ExpandedNodes": [
     "",
     "\\docs",
+    "\\docs\\assets",
     "\\docs\\js",
-    "\\docs\\setup-env",
-    "\\docs\\tools",
-    "\\site\\js",
-    "\\theme\\partials"
+    "\\docs\\realestate",
+    "\\docs\\realestate\\all-love",
+    "\\docs\\realestate\\projecs",
+    "\\docs\\realestate\\projecs\\orlando",
+    "\\docs\\realestate\\seller"
   ],
-  "SelectedNode": "\\site",
+  "SelectedNode": "\\docs\\realestate\\projecs\\orlando\\03-how-it-work.md",
   "PreviewInSolutionExplorer": false
 }
