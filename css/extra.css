@@ -11,7 +11,7 @@ a > img {
 
 }
 
-a[title = "Go to repository"] {
+a[title = "Go to repository"], a[title = "JoyHome HowTo"] {
     pointer-events: none;
 }
 /*.md-header-nav__button {
