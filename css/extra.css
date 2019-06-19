@@ -11,6 +11,9 @@ a > img {
 
 }
 
+a[title = "Go to repository"] {
+    pointer-events: none;
+}
 /*.md-header-nav__button {
     pointer-events: none;
 }*/
