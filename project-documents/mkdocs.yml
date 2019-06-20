@@ -78,9 +78,10 @@ extra:
 edit_uri: 'tree/master/project-documents/docs/'
 #Navigations      
 nav:
-    - General:
-        - Contact: 'index.md'
+    - Contact:
+         - Contact: 'index.md'
 
+    - Client:
         - Buyer:
             - 购买居住房要考虑的因素: 'realestate/buyer/principle-buy-primary-home.md'
             - 购买居住房程序: 'realestate/buyer/house-purchase-steps.md'
@@ -130,7 +131,10 @@ nav:
             - Fill Web Forms Step-By-Step Vedios: 'realestate/agent/training/bsg-realestate-step-by-step.md'
         - Case Resolution:
             - Apply Deposit To New Agreement: 'realestate/agent/case-resolution/case-resolution-01.md'
-    - TechGuide:
-        #- 'Git Guide': 'setup-env/git-guide.md'
+    
+    - Tools:
+        - Reference: 'reference.md'
+        - Calculaor: 'realestate\calculators\calculator-links.md'
+        - 'Git Guide': 'setup-env/git-guide.md'
         - 'Markdown Language Syntax': 'setup-env/markdownsyntax.md'
         - 'MkDocs Guide': 'setup-env/mkdocs-guide.md'

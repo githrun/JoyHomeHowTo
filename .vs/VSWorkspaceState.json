@@ -3,11 +3,14 @@
     "",
     "\\project-documents",
     "\\project-documents\\docs",
+    "\\project-documents\\docs\\css",
     "\\project-documents\\docs\\realestate",
-    "\\project-documents\\docs\\realestate\\all-love",
-    "\\project-documents\\docs\\realestate\\buyer",
-    "\\project-documents\\docs\\tools"
+    "\\project-documents\\docs\\realestate\\calculators",
+    "\\project-documents\\docs\\realestate\\landlord-renter",
+    "\\project-documents\\docs\\realestate\\landlord-renter\\landlord",
+    "\\project-documents\\docs\\realestate\\landlord-renter\\renter",
+    "\\project-documents\\docs\\tech-tools"
   ],
-  "SelectedNode": "\\project-documents\\docs\\index.md",
+  "SelectedNode": "\\project-documents\\docs\\css\\extra.css",
   "PreviewInSolutionExplorer": false
 }

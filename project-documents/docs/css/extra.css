@@ -6,11 +6,15 @@ h5 {
 	color: purple!important;
 }
 
+
 a > img {
     border-radius: 20px;
-
 }
 
+/*this change disable the github link*/
+a[title = "Go to repository"], a[title = "JoyHome HowTo"] {
+    pointer-events: none;
+}
 
 /*This is the changes for left and right margin of layout*/
 .md-grid {
@@ -26,8 +30,6 @@ a > img {
     margin-right: 10px!important;
 
 }
-
-
 
 /*end of layout changes*/
 
