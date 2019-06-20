@@ -11,13 +11,10 @@ a > img {
 
 }
 
+/*this change disable the github link*/
 a[title = "Go to repository"], a[title = "JoyHome HowTo"] {
     pointer-events: none;
 }
-/*.md-header-nav__button {
-    pointer-events: none;
-}*/
-
 
 /*This is the changes for left and right margin of layout*/
 .md-grid {
