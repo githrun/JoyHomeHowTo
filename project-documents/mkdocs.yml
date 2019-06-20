@@ -81,6 +81,17 @@ nav:
     - Contact:
          - Contact: 'index.md'
 
+    - Projects:
+        - Orlando Vacation Homes:
+            - Why ?: 'realestate/projecs/orlando/01-why.md'
+            - What ?: 'realestate/projecs/orlando/02-what.md'
+            - How ?: 'realestate/projecs/orlando/03-how-it-work.md'
+            - Mortgage: 'realestate/projecs/orlando/04-get-financialized.md'
+            - ROI Analysis - 1: 'realestate/projecs/orlando/05-roi-1.md'
+            - ROI Analysis - 2: 'realestate/projecs/orlando/06-roi-2.md'
+            - ROI Analysis - 3: 'realestate/projecs/orlando/07-roi-3.md'
+            - 'Question & Answer': 'realestate/projecs/orlando/08-qa.md'
+
     - Client:
         - Buyer:
             - 购买居住房要考虑的因素: 'realestate/buyer/principle-buy-primary-home.md'
@@ -97,16 +108,7 @@ nav:
             - General Info: 'realestate/landlord-renter/general/01_general-info.md'
             - Landlord: 'realestate/landlord-renter/landlord/01_forms.md'
             - Renter: 'realestate/landlord-renter/renter/01_forms.md'
-    - Projects:
-        - Orlando Vacation Homes:
-            - Why ?: 'realestate/projecs/orlando/01-why.md'
-            - What ?: 'realestate/projecs/orlando/02-what.md'
-            - How ?: 'realestate/projecs/orlando/03-how-it-work.md'
-            - Mortgage: 'realestate/projecs/orlando/04-get-financialized.md'
-            - ROI Analysis - 1: 'realestate/projecs/orlando/05-roi-1.md'
-            - ROI Analysis - 2: 'realestate/projecs/orlando/06-roi-2.md'
-            - ROI Analysis - 3: 'realestate/projecs/orlando/07-roi-3.md'
-            - 'Question & Answer': 'realestate/projecs/orlando/08-qa.md'
+
 
     - Agent:
         - Transaction Management:
