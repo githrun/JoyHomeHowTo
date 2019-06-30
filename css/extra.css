@@ -85,8 +85,36 @@ table > tbody > tr td:first-child::before {
 	
 }
 
-.sopwrap table td:not(:first-child){
-	background-color:white;
-	color:#009688;
-	border-color:#808080;
+.sopwrap table td:not(:first-child) {
+    background-color: white;
+    color:#e63900;
+    /*color:#009688;*/
+    border-color: #808080;
 }
+
+button[data-md-color-primary="teal"] {
+    background-color: #e63900;
+}
+
+[data-md-color-primary="teal"] .md-typeset a {
+    color: #e63900;
+}
+
+[data-md-color-primary="teal"] .md-header {
+    background-color: #e63900;
+}
+
+[data-md-color-primary="teal"] .md-hero {
+    background-color: #e63900;
+}
+
+[data-md-color-primary="teal"] .md-nav__link:active,
+[data-md-color-primary="teal"] .md-nav__link--active {
+    color: #e63900;
+}
+
+html [data-md-color-primary="teal"] .md-nav--primary .md-nav__title--site {
+    background-color: #009688; }
+
+[data-md-color-primary="teal"] .md-tabs {
+    background-color: #009688; }
