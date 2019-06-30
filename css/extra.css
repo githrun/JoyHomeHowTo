@@ -114,7 +114,9 @@ button[data-md-color-primary="teal"] {
 }
 
 html [data-md-color-primary="teal"] .md-nav--primary .md-nav__title--site {
-    background-color: #009688; }
+    background-color: #e63900;
+}
 
 [data-md-color-primary="teal"] .md-tabs {
-    background-color: #009688; }
+    background-color: #e63900;
+}
