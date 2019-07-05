@@ -85,8 +85,8 @@ table > tbody > tr td:first-child::before {
 	
 }
 
-.sopwrap table td:not(:first-child){
-	background-color:white;
-	color:#009688;
-	border-color:#808080;
+.sopwrap table td:not(:first-child) {
+    background-color: white;
+    color:#009688;
+    border-color: #808080;
 }

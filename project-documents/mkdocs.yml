@@ -16,13 +16,13 @@ theme:
 #  dir: 'theme'
   name: 'material'   
   palette:
-    primary: 'teal'
-    accent: 'teal'
+    primary: 'cyan'
+    accent: 'cyan'
   font:
     text: 'Open Sans'
     code: 'Source Sans Pro'
   logo: 
-    icon: 'whatshot'
+    icon: 'home'
   favicon: 'assets/images/logo.png'
   repo_icon: gitlab
   feature:
@@ -78,8 +78,9 @@ extra:
 edit_uri: 'tree/master/project-documents/docs/'
 #Navigations      
 nav:
-    - Contact:
-         - Contact: 'index.md'
+    - Welcome: 'index.md'
+
+    - Incredible Toronto: 'incedibletoronto.md'
 
     - Projects:
         - Orlando Vacation Homes:
@@ -111,6 +112,7 @@ nav:
 
 
     - Agent:
+        - Handy Links: 'realestate/agent/00_handy_links.md'
         - Transaction Management:
             - Commission Rebate: 'realestate/agent/transaction-management/01_commission_rebate.md'
             - Disclosure of Interests: realestate/agent/transaction-management/02_disclosure_of_interest.md
@@ -135,8 +137,10 @@ nav:
             - Apply Deposit To New Agreement: 'realestate/agent/case-resolution/case-resolution-01.md'
     
     - Tools:
-        - Reference: 'reference.md'
-        - Calculaor: 'realestate\calculators\calculator-links.md'
-        - 'Git Guide': 'setup-env/git-guide.md'
+        - Reference Links: 'reference.md'
+        - Calculaor: 'realestate/calculators/calculator-links.md'
+        #- 'Git Guide': 'setup-env/git-guide.md'
         - 'Markdown Language Syntax': 'setup-env/markdownsyntax.md'
         - 'MkDocs Guide': 'setup-env/mkdocs-guide.md'
+
+    - Contact: 'contact.md'

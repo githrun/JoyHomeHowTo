@@ -1,4 +1,4 @@
-# Git Guide @CorHealth
+# Git Guide
 
 ## Install Git
 

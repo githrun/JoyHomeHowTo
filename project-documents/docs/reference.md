@@ -1,34 +1,51 @@
+﻿
 
-- The Encyclopedia of Your JoyHome
-    [Ultimate Home Reference](/assets/pdfs/HomeReferenceGuide.pdf)
+
+
+- Incredible View of Toronto
+<iframe src="https://onedrive.live.com/embed?cid=BA6170ED993ACE84&resid=BA6170ED993ACE84%217299&authkey=AD_tb7HiPqLPZls" width="320" height="136" frameborder="0" scrolling="no" allowfullscreen></iframe>
+
+- A Encyclopedia of Your JoyHome
+
+    <p><a href="./assets/pdfs/HomeReferenceGuide.pdf" target="_blank">Ultimate Home Reference</a></p>
 
 - School Info
 
-    [findschool.ca](http://findschool.ca)
+    <p><a href="http://ontario.compareschoolrankings.org/elementary/SchoolsByRankLocationName.aspx" target="_blank">Ontario Elmentary School Ranking</a></p>
 
-    [scholarhood.ca](http://scholarhood.ca)
+    <p><a href="http://britishcolumbia.compareschoolrankings.org/secondary/SchoolsByRankLocationName.aspx" target="_blank">Ontario Secondary School Ranking</a></p> 
+
+    <p><a href="http://findschool.ca" target="_blank">Find School</a></p>
+
+    <p><a href="http://scholarhood.ca" target="_blank">Scholarhood</a></p>
 
 - Community Info:
 
-    [toronto.ca/wellbeing](http://toronto.ca/wellbeing)
+    <p><a href="http://toronto.ca/wellbeing" target="_blank">toronto.ca/wellbeing</a></p>
 
-    [neighbourhood123.com](http://neighbourhood123.com)
+    <p><a href="http://neighbourhood123.com" target="_blank">neighbourhood123.com</a></p>
 
-- Locate Properties
+- Locate Properties with Statics
 
-    [realtor.ca](http://realtor.ca) 
+    <p><a href="https://housesigma.com/web/en" target="_blank">房智慧 HouseSigma</a></p>
 
-    [zolo.ca](http://zolo.ca) 
+    <p><a href="https://www.realmaster.com" target="_blank">房大师 RealMaster</a></p>
 
-    [homefinder.ca](http://homefinder.ca)
+    <p><a href="http://zolo.ca" target="_blank">Zolo</a></p>
 
-- Reports
+    <p><a href="http://strata.ca" target="_blank">Strata Condos</a></p>
 
-    [tosolds.ca](http://tosolds.ca)
+    <p><a href="http://listing.ca" target="_blank">Listing.ca</a></p>
 
-    [aboutmyproperty.ca](http://aboutmyproperty.ca)
+    <p><a href="http://homefinder.ca" target="_blank">Home Finder</a></p>
+   
+    <p><a href="http://realtor.ca" target="_blank">Realtor.ca</a></p>
 
-- Statistics
+- Reports or Statics
 
-    [rentals.ca](https://rentals.ca)
+    <p><a href="http://tosolds.ca" target="_blank">tosolds.ca</a></p>
+
+    <p><a href="http://aboutmyproperty.ca" target="_blank">About My Property</a></p>
+
+    <p><a href="https://rentals.ca" target="_blank">Rentals.ca</a></p>
     

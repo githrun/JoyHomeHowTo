@@ -1,11 +1,11 @@
 ﻿
-> *I am thinking what your are considering about your JoyHome!*
-- Email: eric.cma@gmail.com
-- Cell: 647-882-0661
-- wechat ID: jysytaba
-- Scan for wechat :
+ *To Eric's JoyHome Howto*
 
-     ![Wechat Barcode](./assets/images/wechatbarcode.jpg)      
+   <p align="center"><img alt="Eric Portrait" src="/JoyHomeHowTo/assets/images/ericportrait.jpg" height="170" width="156"></p> 
 
+ *I am thinking what you are considering about buying, selling, renting or maitaining your JoyHome.*
 
+ *With enthusiam and expertises, I diligently serve the communitity and neighbourhood humble.*
+
+ *It is going to be a hassle-free and fruitful experience if you choose me as your JoyHome agent.*
 
