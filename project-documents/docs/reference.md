@@ -1,10 +1,6 @@
 ﻿
 
 
-
-- Incredible View of Toronto
-<iframe src="https://onedrive.live.com/embed?cid=BA6170ED993ACE84&resid=BA6170ED993ACE84%217299&authkey=AD_tb7HiPqLPZls" width="320" height="136" frameborder="0" scrolling="no" allowfullscreen></iframe>
-
 - A Encyclopedia of Your JoyHome
 
     <p><a href="./assets/pdfs/HomeReferenceGuide.pdf" target="_blank">Ultimate Home Reference</a></p>

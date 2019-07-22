@@ -4,13 +4,13 @@
     "\\project-documents",
     "\\project-documents\\docs",
     "\\project-documents\\docs\\assets",
+    "\\project-documents\\docs\\assets\\images",
     "\\project-documents\\docs\\assets\\pdfs",
-    "\\project-documents\\docs\\realestate",
-    "\\project-documents\\docs\\realestate\\agent",
-    "\\project-documents\\docs\\realestate\\all-love",
-    "\\project-documents\\docs\\realestate\\calculators",
-    "\\project-documents\\docs\\tech-tools"
+    "\\project-documents\\docs\\assets\\videos",
+    "\\project-documents\\site",
+    "\\project-documents\\site\\assets",
+    "\\project-documents\\site\\assets\\videos"
   ],
-  "SelectedNode": "\\project-documents\\mkdocs.yml",
+  "SelectedNode": "\\project-documents\\docs\\assets\\images\\torontolanding.jpg",
   "PreviewInSolutionExplorer": false
 }
