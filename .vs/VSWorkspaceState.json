@@ -3,14 +3,11 @@
     "",
     "\\project-documents",
     "\\project-documents\\docs",
-    "\\project-documents\\docs\\assets",
-    "\\project-documents\\docs\\assets\\images",
-    "\\project-documents\\docs\\assets\\pdfs",
-    "\\project-documents\\docs\\assets\\videos",
-    "\\project-documents\\site",
-    "\\project-documents\\site\\assets",
-    "\\project-documents\\site\\assets\\videos"
+    "\\project-documents\\docs\\realestate",
+    "\\project-documents\\docs\\realestate\\calculators",
+    "\\project-documents\\docs\\realestate\\seller",
+    "\\project-documents\\docs\\tech-tools"
   ],
-  "SelectedNode": "\\project-documents\\docs\\assets\\images\\torontolanding.jpg",
+  "SelectedNode": "\\project-documents\\docs\\reference.md",
   "PreviewInSolutionExplorer": false
 }

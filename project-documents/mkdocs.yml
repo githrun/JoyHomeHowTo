@@ -84,17 +84,19 @@ nav:
 
     - Projects:
         - Orlando Vacation Homes:
-            - Why: 'realestate/projecs/orlando/01-why.md'
-            - What: 'realestate/projecs/orlando/02-what.md'
-            - How: 'realestate/projecs/orlando/03-how-it-work.md'
-            - Mortgage: 'realestate/projecs/orlando/04-get-financialized.md'
-            - ROI Analysis - 1:'realestate/projecs/orlando/05-roi-1.md'
-            - ROI Analysis - 2: 'realestate/projecs/orlando/06-roi-2.md'
-            - ROI Analysis - 3: 'realestate/projecs/orlando/07-roi-3.md'
-            - 'Question & Answer': 'realestate/projecs/orlando/08-qa.md'
+            - Why: 'realestate/projects/orlando/01-why.md'
+            - What: 'realestate/projects/orlando/02-what.md'
+            - How: 'realestate/projects/orlando/03-how-it-work.md'
+            - Mortgage: 'realestate/projects/orlando/04-get-financialized.md'
+            - ROI Analysis - 1: 'realestate/projects/orlando/05-roi-1.md'
+            - ROI Analysis - 2: 'realestate/projects/orlando/06-roi-2.md'
+            - ROI Analysis - 3: 'realestate/projects/orlando/07-roi-3.md'
+            - 'Question & Answer': 'realestate/projects/orlando/08-qa.md'
 
     - Client:
         - General:
+            - Ecnomic Indicators: 'realestate/all-love/02_ecnomics_indicator.md'
+            - 经济景气指标: 'realestate/all-love/02_ecnomics_indicator_ch.md'
             - 房屋常见问题: 'realestate/all-love/02_residential_house_flaws.md'
             - 加拿大房屋保险全攻略: 'realestate/all-love/02_residence_insurance_intro.md'
 
@@ -107,7 +109,7 @@ nav:
             - 楼花及购买步骤: 'realestate/buyer/new-construction.md'
 
         - Seller:
-            - steps to sell a house: 'realestate/seller/steps_sell_primary_home.md'
+            - Steps to sell a house: 'realestate/seller/steps_sell_primary_home.md'
             - 卖房步骤详解（中文）: 'realestate/seller/steps_sell_primary_home_ch.md'
             - Principles of sellinging a primary house: 'realestate/seller/principle-sell-primary-home.md'
 

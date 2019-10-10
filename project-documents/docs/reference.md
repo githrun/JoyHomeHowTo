@@ -4,6 +4,7 @@
 - A Encyclopedia of Your JoyHome
 
     <p><a href="./assets/pdfs/HomeReferenceGuide.pdf" target="_blank">Ultimate Home Reference</a></p>
+    <p><a href="https://www.dropbox.com/sh/r6ksrxbvf6d2jqg/AAB03ZwLdq0rE4ekW2Y7eOQAa?lst=" target="_blank">House Related Projects Guide</a></p>
 
 - School Info
 
@@ -38,8 +39,6 @@
     <p><a href="http://realtor.ca" target="_blank">Realtor.ca</a></p>
 
 - Reports or Statics
-
-    <p><a href="http://tosolds.ca" target="_blank">tosolds.ca</a></p>
 
     <p><a href="http://aboutmyproperty.ca" target="_blank">About My Property</a></p>
 
