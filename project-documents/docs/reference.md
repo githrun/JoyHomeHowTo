@@ -3,9 +3,8 @@
 
 - A Encyclopedia of Your JoyHome
 
-    <p><a href="./assets/pdfs/HomeReferenceGuide.pdf" target="_blank">Ultimate Home Reference</a></p>
-    <p><a href="https://www.dropbox.com/sh/r6ksrxbvf6d2jqg/AAB03ZwLdq0rE4ekW2Y7eOQAa?lst=" target="_blank">House Related Projects Guide</a></p>
-
+    <p><a href="https://drive.google.com/drive/folders/10kZmiCIEMvQ0fgXmz1mSZPUC78iwF24U?usp=sharing" target="_blank">Ultimate Home Reference</a></p>
+    
 - School Info
 
     <p><a href="http://ontario.compareschoolrankings.org/elementary/SchoolsByRankLocationName.aspx" target="_blank">Ontario Elmentary School Ranking</a></p>
