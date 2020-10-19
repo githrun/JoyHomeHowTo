@@ -1,0 +1,165 @@
+﻿# Project information
+site_name: JoyHome HowTo
+site_description: Clear Wonderings About Your Dream Home and Investment
+repo_name: GitHub  #valid value 'GitHub', 'BitBucket', 'GitLab'
+repo_url: 'https://github.com/ericcma/JoyHomeHowTo/'
+site_url: https://github.com/ericcma/JoyHomeHowTo/
+site_author: Eric Ma
+#extra:
+#  repo_icon: github
+#Copyright
+copyright: 'Copyright &copy; 2019 JoyHome Maintained by Eric Ma'
+
+#Theme
+#'material','windmill' ,cinder,mkdocs,readthedocs, rtd-dropdown
+theme: 
+#  dir: 'theme'
+  name: 'material'   
+  palette:
+    primary: 'cyan'
+    accent: 'cyan'
+  font:
+    text: 'Open Sans'
+    code: 'Source Sans Pro'
+  logo: 
+    icon: 'home'
+  favicon: 'assets/images/logo.png'
+  repo_icon: gitlab
+  feature:
+    tabs: true
+  custom_dir: 'theme'
+
+markdown_extensions:
+  - admonition:                      #block style content
+  - codehilite:                       #language highter
+      guess_lang: false
+  - pymdownx.arithmatex:
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret:
+  - pymdownx.critic:
+  - pymdownx.details:
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite:
+  - pymdownx.magiclink:
+  - pymdownx.mark:
+  - pymdownx.smartsymbols:
+  - pymdownx.superfences:
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde:
+  - toc:
+      permalink: true
+      baselevel: 1
+      toc_depth: 3
+  - extra:              #enable markdown within div   
+  - attr_list:          #give rendered html attribute such as Id
+  - markdown_include.include:
+      base_path: docs
+      
+#plugins:
+#    - pdf-export:
+    
+#Extra    
+extra_css:
+  - 'css/extra.css'
+  
+extra_javascript:
+  - 'js/extra.js'
+  
+extra:
+  social:
+    - type: 'github'
+      link: 'https://ericcma.github.io/'
+    - type: 'twitter'
+      link: 'https://ericcma.github.io/'
+
+edit_uri: 'tree/master/project-documents/docs/'
+#Navigations      
+nav:
+    - Welcome: 'index.md'
+
+    - Incredible Toronto: 'incedibletoronto.md'
+
+    - Projects:
+        - Orlando Vacation Homes:
+            - Why: 'realestate/projects/orlando/01-why.md'
+            - What: 'realestate/projects/orlando/02-what.md'
+            - How: 'realestate/projects/orlando/03-how-it-work.md'
+            - Mortgage: 'realestate/projects/orlando/04-get-financialized.md'
+            - ROI Analysis - 1: 'realestate/projects/orlando/05-roi-1.md'
+            - ROI Analysis - 2: 'realestate/projects/orlando/06-roi-2.md'
+            - ROI Analysis - 3: 'realestate/projects/orlando/07-roi-3.md'
+            - 'Question & Answer': 'realestate/projects/orlando/08-qa.md'
+
+    - Client:
+        - General Knowledge:
+            - Ecnomic Indicators: 'realestate/all-love/02_ecnomics_indicator.md'
+            - 经济景气指标: 'realestate/all-love/02_ecnomics_indicator_ch.md'
+            - 房屋常见问题: 'realestate/all-love/02_residential_house_flaws.md'
+            - 加拿大房屋保险全攻略: 'realestate/all-love/02_residence_insurance_intro.md'
+        - Hot Communities:
+            - Mississauga:
+                - General Information: 'realestate/communities/mississauga/00_MississuagaGeneral.md'
+                - Lorne Park: 'realestate/communities/mississauga/01_LornePark.md'
+                - Churchill Meadows: 'realestate/communities/mississauga/02_ChurchillMeadows.md'
+                - Central Erin Mills: 'realestate/communities/mississauga/03_CentralErinMills.md'
+            - Oakville:
+                - General Information: 'realestate/communities/oakville/00_OakvilleGeneral.md'
+                - Westoak Trail: 'realestate/communities/oakville/01_WestoakTrail.md'
+                - Rural Oakville: 'realestate/communities/oakville/02_RuralOakville.md'
+                - Iroquois Ridge North: 'realestate/communities/oakville/03_IroquoisRidgeNorth.md'
+                - College Park: 'realestate/communities/oakville/04_CollegePark.md'
+        - Buyer:
+            - 购买居住房要考虑的因素: 'realestate/buyer/principle-buy-primary-home.md'
+            - 购买居住房程序: 'realestate/buyer/house-purchase-steps.md'
+            - 关于房屋朝向: 'realestate/buyer/pinciple-house-orientation.md'
+            - 房屋贷款原则: 'realestate/buyer/mortage-shopping-principle.md'
+            - 房屋贷款步骤: 'realestate/buyer/mortgage-steps.md'
+            - 楼花及购买步骤: 'realestate/buyer/new-construction.md'
+
+        - Seller:
+            - Steps to sell a house: 'realestate/seller/steps_sell_primary_home.md'
+            - 卖房步骤详解（中文）: 'realestate/seller/steps_sell_primary_home_ch.md'
+            - Principles of sellinging a primary house: 'realestate/seller/principle-sell-primary-home.md'
+
+        - Landlord-Renter:
+            - General Info: 'realestate/landlord-renter/general/01_general-info.md'
+            - Landlord: 'realestate/landlord-renter/landlord/01_forms.md'
+            - Renter: 'realestate/landlord-renter/renter/01_forms.md'
+
+
+    - Agent:
+        - Handy Links: 'realestate/agent/00_handy_links.md'
+        - Transaction Management:
+            - Commission Rebate: 'realestate/agent/transaction-management/01_commission_rebate.md'
+            - Disclosure of Interests: realestate/agent/transaction-management/02_disclosure_of_interest.md
+            - Offer Examples: realestate/agent/transaction-management/03_offer_examples.md
+            - Webform Templates: realestate/agent/transaction-management/04_webform_emplate.md
+            - Document Needs for Transactions:
+                - Listing:
+                    - Resale: realestate/agent/transaction-management/05_document_needs_for_transactions/transaction_listing_resale.md
+                    - Lease: realestate/agent/transaction-management/05_document_needs_for_transactions/transaction_listing_lease.md
+                    - Assignment: realestate/agent/transaction-management/05_document_needs_for_transactions/transaction_listing_assignment.md
+                - Co-Operate:
+                    - Resale: realestate/agent/transaction-management/05_document_needs_for_transactions/transaction_coop_resale.md
+                    - Lease: realestate/agent/transaction-management/05_document_needs_for_transactions/transaction_coop_lease.md
+                    - Assignment: realestate/agent/transaction-management/05_document_needs_for_transactions/transaction_coop_assignment.md
+                - 'New Construction': 'realestate/agent/transaction-management/05_document_needs_for_transactions/transaction_new_construction.md'
+            - Schefule B: realestate/agent/transaction-management/06_scheduleB.md
+            - Transaction Summary: realestate/agent/transaction-management/07_transaction_summary.md
+            - Fintrac Forms: realestate/agent/transaction-management/08_fintrac_forms.md
+        - Training:
+            - Fill Web Forms Step-By-Step Vedios: 'realestate/agent/training/bsg-realestate-step-by-step.md'
+        - Case Resolution:
+            - Apply Deposit To New Agreement: 'realestate/agent/case-resolution/case-resolution-01.md'
+    
+    - Tools:
+        - Reference Links: 'reference.md'
+        - Calculaor: 'realestate/calculators/calculator-links.md'
+        #- 'Git Guide': 'setup-env/git-guide.md'
+        - 'Markdown Language Syntax': 'setup-env/markdownsyntax.md'
+        - 'MkDocs Guide': 'setup-env/mkdocs-guide.md'
+
+    - Contact: 'contact.md'
