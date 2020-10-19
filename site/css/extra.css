@@ -1,0 +1,92 @@
+h1, h2 {
+    font-weight: 400 !important;
+}
+
+h5 {
+	color: purple!important;
+}
+
+
+a > img {
+    border-radius: 20px;
+}
+
+/*this change disable the github link*/
+a[title = "Go to repository"], a[title = "JoyHome HowTo"] {
+    pointer-events: none;
+}
+
+/*This is the changes for left and right margin of layout*/
+.md-grid {
+
+    max-width: 170rem!important;
+    margin-right: 60px!important;
+    margin-left: 20px!important;
+}
+
+.md-sidebar--secondary {
+
+    margin-left: 96%!important;
+    margin-right: 10px!important;
+
+}
+
+/*end of layout changes*/
+
+/*On extra large screen, narrow the the content column*/
+@media screen and (min-width:1900px) {
+	.codehilite {
+		max-width:85%;
+	}
+
+	p, .md-content ul, ol {
+		max-width:85%;
+	}
+	
+	
+	.note, .important, .danger {
+	max-width:85%;
+	}
+}
+
+/*Odd line background color for table*/
+tr:nth-child(odd) {
+	background: #e5e3e3;
+}
+
+/*give row number to table data rows*/
+
+table  {
+    counter-reset: rowNumber;
+}
+
+table > tbody > tr {
+    counter-increment: rowNumber;
+}
+
+table > tbody > tr td:first-child::before {
+    content: counter(rowNumber);
+    min-width: 1em;
+    margin-right: 0.5em;
+}
+/*end give row number to table data rows*/
+
+.sopwrap table > tbody > tr td:first-child::before {
+    content: '';
+    min-width: 1em;
+    margin-right: 0.5em;
+}
+
+.sopwrap table td:nth-child(1){
+	background-color:#e6e6e6;
+	color:#514684;
+	font-weight:bold;
+	border-color:#808080;
+	
+}
+
+.sopwrap table td:not(:first-child) {
+    background-color: white;
+    color:#009688;
+    border-color: #808080;
+}

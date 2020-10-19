@@ -1,7 +1,7 @@
 ﻿
  *To Eric's JoyHome Howto*
 
-   <p align="center"><img alt="Eric Portrait" src="/JoyHomeHowTo/assets/images/ericportrait.jpg" height="170" width="156"></p> 
+   <p align="center"><img alt="Eric Portrait" src="/assets/images/ericportrait.jpg" height="170" width="156"></p> 
 
  *I am thinking what you are considering about buying, selling, renting or maitaining your JoyHome.*
 
