@@ -90,3 +90,9 @@ table > tbody > tr td:first-child::before {
     color:#009688;
     border-color: #808080;
 }
+
+.md-content__inner.md-typeset{
+    background-image: linear-gradient(to bottom right, rgba(255,0,0,0), rgba(0, 188, 212, 1));
+    padding: 0.65rem;
+    padding: 0.65rem;
+}
