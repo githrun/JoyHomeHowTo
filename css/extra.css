@@ -11,9 +11,12 @@ a > img {
     border-radius: 20px;
 }
 
-div[id='ericportrait'] > img {
-    border-radius: 85px;
-    margin-left:150px;
+.ericportait{
+    padding-left: 150px;
+}
+
+div > img {
+    border-radius: 150px;
 }
 
 /*this change disable the github link*/
