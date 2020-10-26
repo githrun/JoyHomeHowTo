@@ -11,6 +11,11 @@ a > img {
     border-radius: 20px;
 }
 
+div[id='ericportrait'] > img {
+    border-radius: 85px;
+    margin-left:150px;
+}
+
 /*this change disable the github link*/
 a[title = "Go to repository"], a[title = "JoyHome HowTo"] {
     pointer-events: none;
