@@ -25,3 +25,5 @@ Palermo West 区内的高中是2012年刚刚成立的 Garth Webb Secondary高中
 ### 综合评价
 
 Palermo West 社区超过75%的部分是著名的 Bronte Creek 省立公园。整个社区几乎都被郁郁葱葱的公园环绕， 真正的闹市里的世外桃园。小区内房屋很新，大部分房龄在10年左右。房子类型只有是独立和镇屋，没有其他类型。区内相当多的房屋紧邻绿地，小溪，池塘或树林, 环境非常优美。区内的房价适中，对于追求优美的居住环境， 同时又喜欢新房的买家，这里无疑是很好的选择。
+
+## [Palermo West 房价走势, 点击看图](https://oakville.listing.ca/palermo-west/real-estate-price-history.htm)

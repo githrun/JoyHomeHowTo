@@ -15,3 +15,6 @@ Rural Oakville 社区内现在只有位于社区中间位置的一所学校：Od
 ### 综合评价
 
 Rural Oakville  是 Oakville 最后一块未开发的土地，一直以来这里都是农田，果园和公园， 风景秀丽。最近的几年， 几个大开发商相继在这片尚未开发的处女地上逐渐建起了成片的房屋。房屋类型上独立屋，半独立屋和镇屋都有， 配套设施还有待完善。对喜欢新房的朋友，这里是很好的选择。
+
+
+## [Rural Oakville 房价走势, 点击看图](https://oakville.listing.ca/rural-oakville/real-estate-price-history.htm)

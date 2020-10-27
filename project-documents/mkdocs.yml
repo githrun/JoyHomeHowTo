@@ -94,10 +94,14 @@ nav:
                 - Unionville: 'realestate/communities/markham/08_unionville.md'
                 - wismer: 'realestate/communities/markham/09_wismer.md'
             - Mississauga(密西沙加):
-                - General Information: 'realestate/communities/mississauga/00_MississuagaGeneral.md'
-                - Lorne Park: 'realestate/communities/mississauga/01_LornePark.md'
-                - Churchill Meadows: 'realestate/communities/mississauga/02_ChurchillMeadows.md'
-                - Central Erin Mills: 'realestate/communities/mississauga/03_CentralErinMills.md'
+                - General Information: 'realestate/communities/mississauga/00_mississuaga_general.md'
+                - Central Erin Mills: 'realestate/communities/mississauga/01_central_erin_mills.md'
+                - Churchill Meadows: 'realestate/communities/mississauga/02_churchill_meadows.md'
+                - Erin Mills: 'realestate/communities/mississauga/03_erin_mills.md'
+                - Lisgar: 'realestate/communities/mississauga/05_lisgar.md'
+                - Lorne Park: 'realestate/communities/mississauga/06_lorne_park.md'
+                
+                
             - North York(北约克):
                 - North York General(概况): 'realestate/communities/northyork/00_northyork_general.md'
                 - Bayview Village: 'realestate/communities/northyork/01_bayviewvillage.md'
@@ -108,7 +112,7 @@ nav:
                 - Palermo West: 'realestate/communities/oakville/05_palermo_west.md'
                 - River Oaks: 'realestate/communities/oakville/06_river_oaks.md'
                 - Rural Oakville: 'realestate/communities/oakville/08_rural_oakville.md'
-                - Westoak Trail: 'realestate/communities/oakville/10_west_oak_trail.md'
+                - Westoak Trails: 'realestate/communities/oakville/10_west_oak_trails.md'
             - Richmond Hill(列治文山):
                 - Richmond Hill General(概况): 'realestate/communities/richmondhill/00_richmondhill_general.md'
                 - Bayview Hill: 'realestate/communities/richmondhill/01_bayviewhill.md'
@@ -117,7 +121,8 @@ nav:
                 - Langstaff: 'realestate/communities/richmondhill/05_langstaff.md'
             - Vaughan(旺市):
                 - Vaughan General(概况): 'realestate/communities/vaughan/00_vaughan_general.md'
-                - Thornhill Woods: 'realestate/communities/vaughan/01_thornhillwoods.md'
+                - Patterson: 'realestate/communities/vaughan/05_patterson.md'
+                - Vellore Village: 'realestate/communities/vaughan/08_vellore_village.md'
         - Buyer（买家必知）:
             - 购买居住房要考虑的因素: 'realestate/buyer/principle-buy-primary-home.md'
             - 购买居住房程序: 'realestate/buyer/house-purchase-steps.md'

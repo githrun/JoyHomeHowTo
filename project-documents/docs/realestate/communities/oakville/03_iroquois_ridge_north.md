@@ -27,4 +27,5 @@ Iroquois Ridge North街区是大多市西部地区自然环境和居住环境较
 ### 综合评价
 
  Iroquois Ridge North是整个Oakville新房最密集的地区之一。靠近 Dundas Road 的部分开发于 2000 年以后，房子大多宽大气派，价格不菲。Iroquios Ridge North 以优越的地理位置，出色的学校配置，优美的自然环境，周全的社区规划，和大量的高档次房屋的分布，越来越受到广大买家， 特别是华人朋友的青睐。Iroquios Ridge North必将成为镶嵌在Oakville东北部的一颗闪亮的明珠。
- 
+
+## [Iroquois Ridge North 房价走势, 点击看图](https://oakville.listing.ca/iroquois-ridge-north/real-estate-price-history.htm)

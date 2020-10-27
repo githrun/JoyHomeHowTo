@@ -28,3 +28,5 @@ College Park社区内部有纵横交错的公共交通和高速公路网络。�
 ### 综合评价
 
 College Park 社区地理位置居中，交通便利。虽没有安大略湖的壮丽景色和广袤森林， 但是凭借区内星罗棋布的绿地，河流和公园，其自然环境依然优越安逸。College Park社区的亮点就是出色的中小学教育和可负担的房价。相对于Oakville的其他地区，这里的房价偏低，对于重视之女教育的新移民家庭是说，College Park是非常不错的选择。
+
+## [College Park 房价走势, 点击看图](https://oakville.listing.ca/college-park/real-estate-price-history.htm)

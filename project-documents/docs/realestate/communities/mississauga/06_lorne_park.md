@@ -23,3 +23,5 @@ Lorne Park 社区拥有全省著名的高中，Lorne Park Secondary School。这
 ### 综合评价
 
 Lorne Park 社区是地处密西沙加最南部的湖滨高尚社区，拥有丰富文化和历史背景。该社区几乎 100%为独立屋, 70%以上的房子房龄在 30-65 年之间，其中有很多翻建的豪宅，Lorne Park 的平均房价是密西沙加最高的。 Lorne Park 适合于具有一定经济实力， 追求良好居住环境和优秀学校教育的买家。
+
+## [Lorne Park 房价走势, 点击看图](https://mississauga.listing.ca/lorne-park/real-estate-price-history.htm)
