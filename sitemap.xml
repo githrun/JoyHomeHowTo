@@ -56,22 +56,32 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/ericcma/JoyHomeHowTo/realestate/communities/mississauga/00_MississuagaGeneral/</loc>
+     <loc>https://github.com/ericcma/JoyHomeHowTo/realestate/communities/mississauga/00_mississuaga_general/</loc>
      <lastmod>2020-10-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/ericcma/JoyHomeHowTo/realestate/communities/mississauga/01_LornePark/</loc>
+     <loc>https://github.com/ericcma/JoyHomeHowTo/realestate/communities/mississauga/01_central_erin_mills/</loc>
      <lastmod>2020-10-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/ericcma/JoyHomeHowTo/realestate/communities/mississauga/02_ChurchillMeadows/</loc>
+     <loc>https://github.com/ericcma/JoyHomeHowTo/realestate/communities/mississauga/02_churchill_meadows/</loc>
      <lastmod>2020-10-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/ericcma/JoyHomeHowTo/realestate/communities/mississauga/03_CentralErinMills/</loc>
+     <loc>https://github.com/ericcma/JoyHomeHowTo/realestate/communities/mississauga/03_erin_mills/</loc>
+     <lastmod>2020-10-26</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://github.com/ericcma/JoyHomeHowTo/realestate/communities/mississauga/05_lisgar/</loc>
+     <lastmod>2020-10-26</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://github.com/ericcma/JoyHomeHowTo/realestate/communities/mississauga/06_lorne_park/</loc>
      <lastmod>2020-10-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -116,7 +126,7 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/ericcma/JoyHomeHowTo/realestate/communities/oakville/10_west_oak_trail/</loc>
+     <loc>https://github.com/ericcma/JoyHomeHowTo/realestate/communities/oakville/10_west_oak_trails/</loc>
      <lastmod>2020-10-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -151,7 +161,12 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/ericcma/JoyHomeHowTo/realestate/communities/vaughan/01_thornhillwoods/</loc>
+     <loc>https://github.com/ericcma/JoyHomeHowTo/realestate/communities/vaughan/05_patterson/</loc>
+     <lastmod>2020-10-26</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://github.com/ericcma/JoyHomeHowTo/realestate/communities/vaughan/08_vellore_village/</loc>
      <lastmod>2020-10-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
