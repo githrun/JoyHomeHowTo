@@ -1,7 +1,9 @@
 ﻿
- *To Eric's JoyHome Howto*
+ *To JoyHome*
 
-   <p align="center"><img alt="Eric Portrait" src="./assets/images/ericportrait.jpg" height="170" width="156"></p> 
+<div id = "ericportrait" class = "ericportait">
+    <img alt="Eric Portrait" src="./assets/images/ericportrait.jpg" height="170" width="156">
+</div>
 
  *I am thinking what you are considering about buying, selling, renting or maitaining your JoyHome.*
 

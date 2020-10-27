@@ -34,4 +34,4 @@ JEFFERSONFOREST 社区内有众多不同大小的足球场，网球场，篮球�
 
 人称“姐夫村”， 社区活动丰富，各种活跃的群体活动， 甚至有年度春节晚会。
 
-
+## [Jefferson 房价走势, 点击看图](https://richmond-hill.listing.ca/jefferson/real-estate-price-history.htm)

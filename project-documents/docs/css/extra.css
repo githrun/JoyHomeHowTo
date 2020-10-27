@@ -11,6 +11,14 @@ a > img {
     border-radius: 20px;
 }
 
+.ericportait{
+    padding-left: 20%;
+}
+
+div > img {
+    border-radius: 150px;
+}
+
 /*this change disable the github link*/
 a[title = "Go to repository"], a[title = "JoyHome HowTo"] {
     pointer-events: none;
@@ -20,8 +28,8 @@ a[title = "Go to repository"], a[title = "JoyHome HowTo"] {
 .md-grid {
 
     max-width: 170rem!important;
-    margin-right: 60px!important;
-    margin-left: 20px!important;
+    margin-right: 15px!important;
+    margin-left: 10px!important;
 }
 
 .md-sidebar--secondary {
@@ -89,4 +97,10 @@ table > tbody > tr td:first-child::before {
     background-color: white;
     color:#009688;
     border-color: #808080;
+}
+
+.md-content__inner.md-typeset{
+    background: linear-gradient(to bottom right, rgba(255,255,255,0), rgba(0, 188, 212, 0.5));
+    padding: 0.65rem;
+    padding: 0.65rem;
 }

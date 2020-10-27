@@ -8,7 +8,7 @@ site_author: Eric Ma
 #extra:
 #  repo_icon: github
 #Copyright
-copyright: 'Copyright &copy; 2019 JoyHome Maintained by Eric Ma'
+copyright: 'Copyright &copy; 2020 JoyHome Maintained by Eric Ma'
 
 #Theme
 #'material','windmill' ,cinder,mkdocs,readthedocs, rtd-dropdown
@@ -78,31 +78,21 @@ extra:
 edit_uri: 'tree/master/project-documents/docs/'
 #Navigations      
 nav:
-    - Welcome: 'index.md'
-
-    - Incredible Toronto: 'incedibletoronto.md'
-
-    - Projects:
-        - Orlando Vacation Homes:
-            - Why: 'realestate/projects/orlando/01-why.md'
-            - What: 'realestate/projects/orlando/02-what.md'
-            - How: 'realestate/projects/orlando/03-how-it-work.md'
-            - Mortgage: 'realestate/projects/orlando/04-get-financialized.md'
-            - ROI Analysis - 1: 'realestate/projects/orlando/05-roi-1.md'
-            - ROI Analysis - 2: 'realestate/projects/orlando/06-roi-2.md'
-            - ROI Analysis - 3: 'realestate/projects/orlando/07-roi-3.md'
-            - 'Question & Answer': 'realestate/projects/orlando/08-qa.md'
-
-    - Client:
-        - General Knowledge:
-            - Ecnomic Indicators: 'realestate/all-love/02_ecnomics_indicator.md'
+    - Welcome（欢迎光临欢乐家）: 'index.md'
+    - Incredible Toronto（震撼的多伦多）: 'incedibletoronto.md'
+    - Be Prepared（知己知彼）:
+        - General Knowledge（经济及房屋常识）:
             - 经济景气指标: 'realestate/all-love/02_ecnomics_indicator_ch.md'
             - 房屋常见问题: 'realestate/all-love/02_residential_house_flaws.md'
             - 加拿大房屋保险全攻略: 'realestate/all-love/02_residence_insurance_intro.md'
-        - Community Info:
-            - Markham(万锦):
+        - Community Info(社区简介):
+            - Aurora(奥罗拉): 'realestate/communities/aurora/00_aurora_general.md'
+            - Markham(万锦): 
                 - Markham General(概况): 'realestate/communities/markham/00_markham_general.md'
-                - Unionville: 'realestate/communities/markham/01_unionville.md'
+                - Angus Glen: 'realestate/communities/markham/01_angusglen.md'
+                - Berczy: 'realestate/communities/markham/02_berczy.md'
+                - Unionville: 'realestate/communities/markham/08_unionville.md'
+                - wismer: 'realestate/communities/markham/09_wismer.md'
             - Mississauga(密西沙加):
                 - General Information: 'realestate/communities/mississauga/00_MississuagaGeneral.md'
                 - Lorne Park: 'realestate/communities/mississauga/01_LornePark.md'
@@ -112,19 +102,23 @@ nav:
                 - North York General(概况): 'realestate/communities/northyork/00_northyork_general.md'
                 - Bayview Village: 'realestate/communities/northyork/01_bayviewvillage.md'
             - Oakville(奥克维尔):
-                - General Information: 'realestate/communities/oakville/00_OakvilleGeneral.md'
-                - Westoak Trail: 'realestate/communities/oakville/01_WestoakTrail.md'
-                - Rural Oakville: 'realestate/communities/oakville/02_RuralOakville.md'
-                - Iroquois Ridge North: 'realestate/communities/oakville/03_IroquoisRidgeNorth.md'
-                - College Park: 'realestate/communities/oakville/04_CollegePark.md'
+                - General Information: 'realestate/communities/oakville/00_oakville_general.md'
+                - College Park: 'realestate/communities/oakville/02_college_park.md'
+                - Iroquois Ridge North: 'realestate/communities/oakville/03_iroquois_ridge_north.md'
+                - Palermo West: 'realestate/communities/oakville/05_palermo_west.md'
+                - River Oaks: 'realestate/communities/oakville/06_river_oaks.md'
+                - Rural Oakville: 'realestate/communities/oakville/08_rural_oakville.md'
+                - Westoak Trail: 'realestate/communities/oakville/10_west_oak_trail.md'
             - Richmond Hill(列治文山):
                 - Richmond Hill General(概况): 'realestate/communities/richmondhill/00_richmondhill_general.md'
                 - Bayview Hill: 'realestate/communities/richmondhill/01_bayviewhill.md'
-                - Jefferson: 'realestate/communities/richmondhill/02_jefferson.md'
+                - Doncrest: 'realestate/communities/richmondhill/02_doncrest.md'
+                - Jefferson: 'realestate/communities/richmondhill/04_jefferson.md'
+                - Langstaff: 'realestate/communities/richmondhill/05_langstaff.md'
             - Vaughan(旺市):
                 - Vaughan General(概况): 'realestate/communities/vaughan/00_vaughan_general.md'
                 - Thornhill Woods: 'realestate/communities/vaughan/01_thornhillwoods.md'
-        - Buyer:
+        - Buyer（买家必知）:
             - 购买居住房要考虑的因素: 'realestate/buyer/principle-buy-primary-home.md'
             - 购买居住房程序: 'realestate/buyer/house-purchase-steps.md'
             - 关于房屋朝向: 'realestate/buyer/pinciple-house-orientation.md'
@@ -132,18 +126,16 @@ nav:
             - 房屋贷款步骤: 'realestate/buyer/mortgage-steps.md'
             - 楼花及购买步骤: 'realestate/buyer/new-construction.md'
 
-        - Seller:
+        - Seller（卖家必知）:
             - Steps to sell a house: 'realestate/seller/steps_sell_primary_home.md'
             - 卖房步骤详解（中文）: 'realestate/seller/steps_sell_primary_home_ch.md'
             - Principles of sellinging a primary house: 'realestate/seller/principle-sell-primary-home.md'
 
-        - Landlord-Renter:
+        - Landlord-Renter（房东必知）:
             - General Info: 'realestate/landlord-renter/general/01_general-info.md'
             - Landlord: 'realestate/landlord-renter/landlord/01_forms.md'
             - Renter: 'realestate/landlord-renter/renter/01_forms.md'
-
-
-    - Agent:
+    - Agent（经纪规范流程）:
         - Handy Links: 'realestate/agent/00_handy_links.md'
         - Transaction Management:
             - Commission Rebate: 'realestate/agent/transaction-management/01_commission_rebate.md'
@@ -167,12 +159,20 @@ nav:
             - Fill Web Forms Step-By-Step Vedios: 'realestate/agent/training/bsg-realestate-step-by-step.md'
         - Case Resolution:
             - Apply Deposit To New Agreement: 'realestate/agent/case-resolution/case-resolution-01.md'
-    
-    - Tools:
+    - Projects（特别项目）:
+        - Orlando Vacation Homes:
+            - Why: 'realestate/projects/orlando/01-why.md'
+            - What: 'realestate/projects/orlando/02-what.md'
+            - How: 'realestate/projects/orlando/03-how-it-work.md'
+            - Mortgage: 'realestate/projects/orlando/04-get-financialized.md'
+            - ROI Analysis - 1: 'realestate/projects/orlando/05-roi-1.md'
+            - ROI Analysis - 2: 'realestate/projects/orlando/06-roi-2.md'
+            - ROI Analysis - 3: 'realestate/projects/orlando/07-roi-3.md'
+            - 'Question & Answer': 'realestate/projects/orlando/08-qa.md'
+    - Tools（常用工具）:
         - Reference Links: 'reference.md'
         - Calculaor: 'realestate/calculators/calculator-links.md'
         #- 'Git Guide': 'setup-env/git-guide.md'
         - 'Markdown Language Syntax': 'setup-env/markdownsyntax.md'
         - 'MkDocs Guide': 'setup-env/mkdocs-guide.md'
-
-    - Contact: 'contact.md'
+    - Contact（加我哦！）: 'contact.md'

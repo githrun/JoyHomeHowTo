@@ -43,3 +43,6 @@
 
     <p><a href="https://rentals.ca" target="_blank">Rentals.ca</a></p>
     
+    [nie](https://realtornie.com/)
+    [地产网](https://livingmaple.wordpress.com/)
+    

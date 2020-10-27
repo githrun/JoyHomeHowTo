@@ -90,3 +90,9 @@ table > tbody > tr td:first-child::before {
     color:#009688;
     border-color: #808080;
 }
+
+#ericportrait {
+    height: 200px;
+    background-color: #cccccc;
+    background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
+}
