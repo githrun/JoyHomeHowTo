@@ -1,4 +1,5 @@
 ﻿
+<p><a href="https://searchpartyproperty.com.au/property-cashflow-calculator/" target="_blank">Property Cash flow Calculator</a></p>
 
 <p><a href="http://www.trebhome.com/index.php/buying/calculators" target="_blank">Transfer Tax Calculator</a></p>
 
